@@ -1,0 +1,20 @@
+Project Description prompt for github Repo.
+"""I want to add this project in my resume and i will add in my website as well 
+can you create one markdown file which i can display in resume and website as well.
+make sure IP i signed NDA for this project so use only details which we can display openly."""
+
+Code Review for entire repo Prompt (ude in Claude code )
+"""Please carry out a comprehensive code review of the entire repo, 
+and write a report with actions to code_review.md in docs folder"""
+Continue prompt
+"""Ok thank you, please go ahead and address all the priority issue and retest everything,
+ and let me know when everything is remediated and tests ok"""
+Continue prompt
+"""I really want to remediate the monolithic module - please fix that now and then retest.  """
+
+
+
+Checklist for project requirements and deliverables.
+"""
+I'm about to start this project. Interview me until you have 95% confidence about what I actually want, not what I think I should want.
+"""
