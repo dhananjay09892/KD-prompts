@@ -1,0 +1,38 @@
+[
+ {
+  "name": "ai-integration",
+  "category": "",
+  "description": "",
+  "path": "system-designs/ai-integration.md"
+ },
+ {
+  "name": "README",
+  "category": "auth-rbac",
+  "description": "",
+  "path": "system-designs/auth-rbac/README.md"
+ },
+ {
+  "name": "backend-scalable",
+  "category": "",
+  "description": "",
+  "path": "system-designs/backend-scalable.md"
+ },
+ {
+  "name": "frontend-architecture",
+  "category": "",
+  "description": "",
+  "path": "system-designs/frontend-architecture.md"
+ },
+ {
+  "name": "INDEX",
+  "category": "",
+  "description": "",
+  "path": "system-designs/INDEX.md"
+ },
+ {
+  "name": "saas-platform",
+  "category": "",
+  "description": "",
+  "path": "system-designs/saas-platform.md"
+ }
+]

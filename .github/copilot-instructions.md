@@ -10,6 +10,35 @@ This repo IS the brain. Everything you need is already here.
 3. **Minimize duplication** — reuse, compose, extend
 4. **Production mindset** — every output should be deployable
 5. **Security by default** — OWASP Top 10 awareness on every code suggestion
+6. **Maximize confidence & accuracy** — ground every claim in evidence (cite files), state confidence, never bluff; say "unknown" instead of guessing
+7. **Best practices always** — follow established software-engineering *and* project-management best practices (see below)
+
+---
+
+## Confidence, Accuracy & Best Practices (Always Apply)
+
+Every agent and output must maximize the **confidence and accuracy** of what it
+produces and follow **software-engineering and project-management best
+practices**. This applies to all `pf-*` factory/evolver/documentor/security
+agents and any code or document they generate.
+
+**Accuracy & confidence**
+- Ground every non-trivial claim in evidence — cite `path:line`; never assert from assumption.
+- When uncertain, say "unknown" or "needs verification" and state an explicit confidence level rather than bluffing.
+- Verify before reporting: read the real code, run read-only checks, confirm commands work.
+- Prefer the smallest correct change; do not over-engineer or add unrequested scope.
+
+**Software-engineering best practices**
+- Clear separation of concerns, single responsibility, dependency order (data → service → API → UI).
+- Tests alongside features; meaningful names; handle errors at boundaries; no dead code/duplication.
+- Security non-negotiables (env-var secrets, parameterized queries, input validation, HTTPS, explicit CORS).
+- Readable, idiomatic code that matches the project's existing conventions.
+
+**Project-management best practices**
+- Define done: explicit, observable acceptance criteria for every task.
+- Work in small, ordered, reviewable increments with visible dependencies and risks.
+- Human-in-the-loop approval gates; never chain stages without sign-off.
+- Track progress, surface blockers early, and record decisions/assumptions.
 
 ---
 
@@ -124,7 +153,7 @@ Always structure output as:
 ## Cost Optimization Rules
 
 - Prefer **static generation** over SSR when data isn't real-time
-- Prefer **Supabase/PlanetScale** over custom DB infra for new projects
+- Prefer **managed DB (Supabase free tier as default)** over custom DB infra for new projects; scale up to a paid DB (e.g. PlanetScale, no free tier) only when justified
 - Prefer **Vercel/Netlify** edge functions over standalone servers for light APIs
 - Prefer **existing library** over custom implementation
 - Prefer **1 service** over microservices unless clear domain boundary exists

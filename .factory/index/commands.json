@@ -1,0 +1,2324 @@
+[
+ {
+  "name": "supply-chain-audit",
+  "category": "analysis",
+  "description": "",
+  "path": "commands/analysis/supply-chain-audit.md"
+ },
+ {
+  "name": "act",
+  "category": "automation",
+  "description": "Execute GitHub Actions locally using act",
+  "path": "commands/automation/act.md",
+  "argument_hint": "[workflow-name]"
+ },
+ {
+  "name": "ci-pipeline",
+  "category": "automation",
+  "description": "Manage and automate CI/CD pipeline configuration with GitHub Actions, multi-environment support, and deployment strategies",
+  "path": "commands/automation/ci-pipeline.md",
+  "argument_hint": "[pipeline-name] | setup | status | fix"
+ },
+ {
+  "name": "husky",
+  "category": "automation",
+  "description": "Run comprehensive CI checks and fix issues until repository is in working state",
+  "path": "commands/automation/husky.md",
+  "argument_hint": "[--skip-install] | [--only-lint] | [--skip-tests]"
+ },
+ {
+  "name": "szamlazz",
+  "category": "automation",
+  "description": "Issue, cancel, and fetch Hungarian invoices via the szamlazz.hu Agent API — with NAV taxpayer lookup and automatic partner cache",
+  "path": "commands/automation/szamlazz.md",
+  "argument_hint": "<invoice details or subcommand>"
+ },
+ {
+  "name": "workflow-orchestrator",
+  "category": "automation",
+  "description": "Orchestrate complex automation workflows with task dependencies, scheduling, and cross-platform execution",
+  "path": "commands/automation/workflow-orchestrator.md",
+  "argument_hint": "[workflow-name] | create | run | schedule | monitor"
+ },
+ {
+  "name": "appinsights-instrumentation",
+  "category": "azure",
+  "description": "Instrument a webapp to send useful telemetry data to Azure App Insights",
+  "path": "commands/azure/appinsights-instrumentation.md"
+ },
+ {
+  "name": "azure-role-selector",
+  "category": "azure",
+  "description": "When user is asking for guidance for which role to assign to an identity given desired permissions, this agent helps them understand the role that will meet the requirements with least privilege access and how to apply that role.",
+  "path": "commands/azure/azure-role-selector.md"
+ },
+ {
+  "name": "snowflake-semanticview",
+  "category": "database",
+  "description": "Create, alter, and validate Snowflake semantic views using Snowflake CLI (snow). Use when asked to build or troubleshoot semantic views/semantic layer definitions with CREATE/ALTER SEMANTIC VIEW, to validate semantic-view DDL against Snowflake via CLI, or to guide Snowflake CLI…",
+  "path": "commands/database/snowflake-semanticview.md"
+ },
+ {
+  "name": "supabase-backup-manager",
+  "category": "database",
+  "description": "Manage Supabase database backups with automated scheduling and recovery procedures",
+  "path": "commands/database/supabase-backup-manager.md",
+  "argument_hint": "[operation] | --backup | --restore | --schedule | --validate | --cleanup"
+ },
+ {
+  "name": "supabase-data-explorer",
+  "category": "database",
+  "description": "Explore and analyze Supabase database data with intelligent querying and visualization",
+  "path": "commands/database/supabase-data-explorer.md",
+  "argument_hint": "[table-name] | --query [sql] | --export | --inspect"
+ },
+ {
+  "name": "supabase-migration-assistant",
+  "category": "database",
+  "description": "Generate and manage Supabase database migrations with automated testing and validation",
+  "path": "commands/database/supabase-migration-assistant.md",
+  "argument_hint": "[migration-type] | --create | --alter | --seed | --rollback"
+ },
+ {
+  "name": "supabase-performance-optimizer",
+  "category": "database",
+  "description": "Optimize Supabase database performance with intelligent analysis and recommendations",
+  "path": "commands/database/supabase-performance-optimizer.md",
+  "argument_hint": "[optimization-type] | --queries | --indexes | --storage | --rls | --functions"
+ },
+ {
+  "name": "supabase-realtime-monitor",
+  "category": "database",
+  "description": "Monitor and optimize Supabase realtime connections with performance analysis and debugging",
+  "path": "commands/database/supabase-realtime-monitor.md",
+  "argument_hint": "[monitoring-type] | --connections | --subscriptions | --performance | --debug | --analytics"
+ },
+ {
+  "name": "supabase-schema-sync",
+  "category": "database",
+  "description": "Synchronize database schema with Supabase using MCP integration",
+  "path": "commands/database/supabase-schema-sync.md",
+  "argument_hint": "[action] | --pull | --push | --diff | --validate"
+ },
+ {
+  "name": "supabase-security-audit",
+  "category": "database",
+  "description": "Conduct comprehensive Supabase security audit with RLS analysis and vulnerability assessment",
+  "path": "commands/database/supabase-security-audit.md",
+  "argument_hint": "[audit-scope] | --rls | --permissions | --auth | --api-keys | --comprehensive"
+ },
+ {
+  "name": "supabase-type-generator",
+  "category": "database",
+  "description": "Generate TypeScript types from Supabase schema with automatic synchronization and validation",
+  "path": "commands/database/supabase-type-generator.md",
+  "argument_hint": "[generation-scope] | --all-tables | --specific-table | --functions | --enums | --views"
+ },
+ {
+  "name": "add-changelog",
+  "category": "deployment",
+  "description": "Generate and maintain project changelog with Keep a Changelog format",
+  "path": "commands/deployment/add-changelog.md",
+  "argument_hint": "[version] | [entry-type] [description]"
+ },
+ {
+  "name": "blue-green-deployment",
+  "category": "deployment",
+  "description": "Implement blue-green deployment strategy with zero-downtime switching, health validation, and automatic rollback",
+  "path": "commands/deployment/blue-green-deployment.md",
+  "argument_hint": "[strategy] | setup | deploy | switch | rollback | status"
+ },
+ {
+  "name": "changelog-demo-command",
+  "category": "deployment",
+  "description": "Demonstrate changelog automation features with real examples and validation",
+  "path": "commands/deployment/changelog-demo-command.md",
+  "argument_hint": "[format] | --generate | --validate | --demo"
+ },
+ {
+  "name": "ci-setup",
+  "category": "deployment",
+  "description": "Setup comprehensive CI/CD pipeline with automated testing, building, and deployment",
+  "path": "commands/deployment/ci-setup.md",
+  "argument_hint": "[platform] | --github-actions | --gitlab-ci | --jenkins | --full-setup"
+ },
+ {
+  "name": "containerize-application",
+  "category": "deployment",
+  "description": "Containerize application with optimized Docker configuration, security, and multi-stage builds",
+  "path": "commands/deployment/containerize-application.md",
+  "argument_hint": "[application-type] | --node | --python | --java | --go | --multi-stage"
+ },
+ {
+  "name": "deployment-monitoring",
+  "category": "deployment",
+  "description": "Comprehensive deployment monitoring with observability, alerting, health checks, and performance tracking",
+  "path": "commands/deployment/deployment-monitoring.md",
+  "argument_hint": "[monitoring-type] | setup | dashboard | alerts | metrics | health | performance"
+ },
+ {
+  "name": "hotfix-deploy",
+  "category": "deployment",
+  "description": "Deploy critical hotfixes with emergency procedures, validation, and rollback capabilities",
+  "path": "commands/deployment/hotfix-deploy.md",
+  "argument_hint": "[hotfix-type] | --security | --critical | --rollback-ready | --emergency"
+ },
+ {
+  "name": "prepare-release",
+  "category": "deployment",
+  "description": "Prepare and validate release packages with comprehensive testing, documentation, and automation",
+  "path": "commands/deployment/prepare-release.md",
+  "argument_hint": "[version-type] | patch | minor | major | --pre-release | --hotfix"
+ },
+ {
+  "name": "rollback-deploy",
+  "category": "deployment",
+  "description": "Rollback deployment to previous version with safety checks, database considerations, and monitoring",
+  "path": "commands/deployment/rollback-deploy.md",
+  "argument_hint": "[target-version] | --previous | --emergency | --validate-first | --with-db"
+ },
+ {
+  "name": "setup-automated-releases",
+  "category": "deployment",
+  "description": "Setup automated release workflows with semantic versioning, conventional commits, and comprehensive automation",
+  "path": "commands/deployment/setup-automated-releases.md",
+  "argument_hint": "[release-type] | --semantic | --conventional-commits | --github-actions | --full-automation"
+ },
+ {
+  "name": "setup-kubernetes-deployment",
+  "category": "deployment",
+  "description": "Configure comprehensive Kubernetes deployment with manifests, security, scaling, and production best practices",
+  "path": "commands/deployment/setup-kubernetes-deployment.md",
+  "argument_hint": "[deployment-type] | --microservices | --monolith | --stateful | --full-stack | --production-ready"
+ },
+ {
+  "name": "web-design-reviewer",
+  "category": "design",
+  "description": "This skill enables visual inspection of websites running locally or remotely to identify and fix design issues. Triggers on requests like \"review website design\", \"check the UI\", \"fix the layout\", \"find design problems\". Detects issues with responsive design, accessibility, visu…",
+  "path": "commands/design/web-design-reviewer.md"
+ },
+ {
+  "name": "create-architecture-documentation",
+  "category": "documentation",
+  "description": "Generate comprehensive architecture documentation with diagrams, ADRs, and interactive visualization",
+  "path": "commands/documentation/create-architecture-documentation.md",
+  "argument_hint": "[framework] | --c4-model | --arc42 | --adr | --plantuml | --full-suite"
+ },
+ {
+  "name": "create-onboarding-guide",
+  "category": "documentation",
+  "description": "Create comprehensive developer onboarding guide with environment setup, workflows, and interactive tutorials",
+  "path": "commands/documentation/create-onboarding-guide.md",
+  "argument_hint": "[role-type] | --developer | --designer | --devops | --comprehensive | --interactive"
+ },
+ {
+  "name": "doc-api",
+  "category": "documentation",
+  "description": "Generate comprehensive API documentation from code with interactive examples and testing capabilities",
+  "path": "commands/documentation/doc-api.md",
+  "argument_hint": "[api-type] | --openapi | --graphql | --rest | --grpc | --interactive"
+ },
+ {
+  "name": "docs-maintenance",
+  "category": "documentation",
+  "description": "Use PROACTIVELY to implement comprehensive documentation maintenance systems with quality assurance, validation, and automated updates",
+  "path": "commands/documentation/docs-maintenance.md",
+  "argument_hint": "[maintenance-type] | --audit | --update | --validate | --optimize | --comprehensive"
+ },
+ {
+  "name": "generate-api-documentation",
+  "category": "documentation",
+  "description": "Auto-generate API reference documentation with multiple output formats and automated deployment",
+  "path": "commands/documentation/generate-api-documentation.md",
+  "argument_hint": "[output-format] | --swagger-ui | --redoc | --postman | --insomnia | --multi-format"
+ },
+ {
+  "name": "interactive-documentation",
+  "category": "documentation",
+  "description": "Use PROACTIVELY to create interactive documentation platforms with live examples, code playgrounds, and user engagement features",
+  "path": "commands/documentation/interactive-documentation.md",
+  "argument_hint": "[platform] | --docusaurus | --gitbook | --notion | --storybook | --jupyter | --comprehensive"
+ },
+ {
+  "name": "load-llms-txt",
+  "category": "documentation",
+  "description": "Load and process external documentation context from llms.txt files or custom sources",
+  "path": "commands/documentation/load-llms-txt.md",
+  "argument_hint": "[data-source] | --xatu | --custom-url | --validate"
+ },
+ {
+  "name": "migration-guide",
+  "category": "documentation",
+  "description": "Create comprehensive migration guides with step-by-step procedures, validation, and rollback strategies",
+  "path": "commands/documentation/migration-guide.md",
+  "argument_hint": "[migration-type] | framework | database | cloud | architecture | --version-upgrade"
+ },
+ {
+  "name": "troubleshooting-guide",
+  "category": "documentation",
+  "description": "Generate systematic troubleshooting documentation with diagnostic procedures, common issues, and automated solutions",
+  "path": "commands/documentation/troubleshooting-guide.md",
+  "argument_hint": "[system-component] | --application | --database | --network | --deployment | --comprehensive"
+ },
+ {
+  "name": "update-docs",
+  "category": "documentation",
+  "description": "Systematically update project documentation with implementation status, API changes, and synchronized content",
+  "path": "commands/documentation/update-docs.md",
+  "argument_hint": "[doc-type] | --implementation | --api | --architecture | --sync | --validate"
+ },
+ {
+  "name": "game-analytics-integration",
+  "category": "game-development",
+  "description": "Use PROACTIVELY to implement game analytics systems with player behavior tracking, performance monitoring, and business intelligence integration",
+  "path": "commands/game-development/game-analytics-integration.md",
+  "argument_hint": "[analytics-type] | --player-behavior | --performance | --monetization | --retention | --comprehensive"
+ },
+ {
+  "name": "game-asset-pipeline",
+  "category": "game-development",
+  "description": "Use PROACTIVELY to build automated game asset processing pipelines with optimization, validation, and multi-platform delivery systems",
+  "path": "commands/game-development/game-asset-pipeline.md",
+  "argument_hint": "[pipeline-type] | --art | --audio | --models | --textures | --comprehensive"
+ },
+ {
+  "name": "game-performance-profiler",
+  "category": "game-development",
+  "description": "Use PROACTIVELY to analyze game performance bottlenecks and generate optimization recommendations across multiple platforms",
+  "path": "commands/game-development/game-performance-profiler.md",
+  "argument_hint": "[profile-type] | --fps | --memory | --rendering | --comprehensive"
+ },
+ {
+  "name": "game-testing-framework",
+  "category": "game-development",
+  "description": "Use PROACTIVELY to implement comprehensive game testing frameworks with automated validation, performance testing, and multi-platform verification",
+  "path": "commands/game-development/game-testing-framework.md",
+  "argument_hint": "[test-type] | --unit | --integration | --performance | --automation | --comprehensive"
+ },
+ {
+  "name": "unity-project-setup",
+  "category": "game-development",
+  "description": "Use PROACTIVELY to set up professional Unity game development projects with industry-standard structure, essential packages, and platform-optimized configurations",
+  "path": "commands/game-development/unity-project-setup.md",
+  "argument_hint": "[project-name] | --2d | --3d | --mobile | --vr | --console"
+ },
+ {
+  "name": "feature",
+  "category": "git",
+  "description": "Create a new Git Flow feature branch from develop with proper naming and tracking",
+  "path": "commands/git/feature.md",
+  "argument_hint": "<feature-name>"
+ },
+ {
+  "name": "finish",
+  "category": "git",
+  "description": "Complete and merge current Git Flow branch (feature/release/hotfix) with proper cleanup and tagging",
+  "path": "commands/git/finish.md",
+  "argument_hint": "[--no-delete] [--no-tag]"
+ },
+ {
+  "name": "flow-status",
+  "category": "git",
+  "description": "Display comprehensive Git Flow status including branch type, sync status, changes, and merge targets",
+  "path": "commands/git/flow-status.md"
+ },
+ {
+  "name": "hotfix",
+  "category": "git",
+  "description": "Create a new Git Flow hotfix branch from main for emergency production fixes",
+  "path": "commands/git/hotfix.md",
+  "argument_hint": "<hotfix-name>"
+ },
+ {
+  "name": "release",
+  "category": "git",
+  "description": "Create a new Git Flow release branch from develop with version bumping and changelog generation",
+  "path": "commands/git/release.md",
+  "argument_hint": "<version>"
+ },
+ {
+  "name": "branch-cleanup",
+  "category": "git-workflow",
+  "description": "Use PROACTIVELY to clean up merged branches, stale remotes, and organize branch structure",
+  "path": "commands/git-workflow/branch-cleanup.md",
+  "argument_hint": "[--dry-run] | [--force] | [--remote-only] | [--local-only]"
+ },
+ {
+  "name": "commit",
+  "category": "git-workflow",
+  "description": "Create well-formatted commits with conventional commit format and emoji",
+  "path": "commands/git-workflow/commit.md",
+  "argument_hint": "[message] | --no-verify | --amend"
+ },
+ {
+  "name": "create-pr",
+  "category": "git-workflow",
+  "description": "",
+  "path": "commands/git-workflow/create-pr.md"
+ },
+ {
+  "name": "create-pull-request",
+  "category": "git-workflow",
+  "description": "",
+  "path": "commands/git-workflow/create-pull-request.md"
+ },
+ {
+  "name": "create-worktrees",
+  "category": "git-workflow",
+  "description": "",
+  "path": "commands/git-workflow/create-worktrees.md"
+ },
+ {
+  "name": "fix-github-issue",
+  "category": "git-workflow",
+  "description": "",
+  "path": "commands/git-workflow/fix-github-issue.md"
+ },
+ {
+  "name": "gemini-review",
+  "category": "git-workflow",
+  "description": "Transform Gemini Code Assist PR reviews into prioritized TodoLists with automated execution",
+  "path": "commands/git-workflow/gemini-review.md",
+  "argument_hint": "[pr-number] | --analyze-only | --preview | --priority high|medium|low"
+ },
+ {
+  "name": "git-bisect-helper",
+  "category": "git-workflow",
+  "description": "Use PROACTIVELY to guide automated git bisect sessions for finding regression commits with smart test execution",
+  "path": "commands/git-workflow/git-bisect-helper.md",
+  "argument_hint": "[good-commit] [bad-commit] | --auto [test-command] | --reset | --continue"
+ },
+ {
+  "name": "pr-review",
+  "category": "git-workflow",
+  "description": "",
+  "path": "commands/git-workflow/pr-review.md"
+ },
+ {
+  "name": "update-branch-name",
+  "category": "git-workflow",
+  "description": "",
+  "path": "commands/git-workflow/update-branch-name.md"
+ },
+ {
+  "name": "worktree-check",
+  "category": "git-workflow",
+  "description": "Check current worktree status, branch, and assigned task",
+  "path": "commands/git-workflow/worktree-check.md"
+ },
+ {
+  "name": "worktree-cleanup",
+  "category": "git-workflow",
+  "description": "Clean up merged worktrees and their branches",
+  "path": "commands/git-workflow/worktree-cleanup.md",
+  "argument_hint": "--all | --branch claude/name | --dry-run"
+ },
+ {
+  "name": "worktree-deliver",
+  "category": "git-workflow",
+  "description": "Commit, push, and create PR from the current worktree",
+  "path": "commands/git-workflow/worktree-deliver.md"
+ },
+ {
+  "name": "worktree-init",
+  "category": "git-workflow",
+  "description": "Create parallel worktrees for multi-task development with Ghostty panels",
+  "path": "commands/git-workflow/worktree-init.md",
+  "argument_hint": "task 1 | task 2 | task 3"
+ },
+ {
+  "name": "gws-admin-reports",
+  "category": "google-workspace",
+  "description": "Google Workspace Admin SDK: Audit logs and usage reports.",
+  "path": "commands/google-workspace/gws-admin-reports.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-admin",
+  "category": "google-workspace",
+  "description": "Google Workspace Admin SDK: Manage users, groups, and devices.",
+  "path": "commands/google-workspace/gws-admin.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-alertcenter",
+  "category": "google-workspace",
+  "description": "Google Workspace Alert Center: Manage Workspace security alerts.",
+  "path": "commands/google-workspace/gws-alertcenter.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-apps-script-push",
+  "category": "google-workspace",
+  "description": "Google Apps Script: Upload local files to an Apps Script project.",
+  "path": "commands/google-workspace/gws-apps-script-push.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-apps-script",
+  "category": "google-workspace",
+  "description": "Google Apps Script: Manage and execute Apps Script projects.",
+  "path": "commands/google-workspace/gws-apps-script.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-calendar-agenda",
+  "category": "google-workspace",
+  "description": "Google Calendar: Show upcoming events across all calendars.",
+  "path": "commands/google-workspace/gws-calendar-agenda.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-calendar-insert",
+  "category": "google-workspace",
+  "description": "Google Calendar: Create a new event.",
+  "path": "commands/google-workspace/gws-calendar-insert.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-calendar",
+  "category": "google-workspace",
+  "description": "Google Calendar: Manage calendars and events.",
+  "path": "commands/google-workspace/gws-calendar.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-chat-send",
+  "category": "google-workspace",
+  "description": "Google Chat: Send a message to a space.",
+  "path": "commands/google-workspace/gws-chat-send.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-chat",
+  "category": "google-workspace",
+  "description": "Google Chat: Manage Chat spaces and messages.",
+  "path": "commands/google-workspace/gws-chat.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-classroom",
+  "category": "google-workspace",
+  "description": "Google Classroom: Manage classes, rosters, and coursework.",
+  "path": "commands/google-workspace/gws-classroom.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-cloudidentity",
+  "category": "google-workspace",
+  "description": "Google Cloud Identity: Manage identity groups and memberships.",
+  "path": "commands/google-workspace/gws-cloudidentity.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-docs-write",
+  "category": "google-workspace",
+  "description": "Google Docs: Append text to a document.",
+  "path": "commands/google-workspace/gws-docs-write.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-docs",
+  "category": "google-workspace",
+  "description": "Read and write Google Docs.",
+  "path": "commands/google-workspace/gws-docs.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-drive-upload",
+  "category": "google-workspace",
+  "description": "Google Drive: Upload a file with automatic metadata.",
+  "path": "commands/google-workspace/gws-drive-upload.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-drive",
+  "category": "google-workspace",
+  "description": "Google Drive: Manage files, folders, and shared drives.",
+  "path": "commands/google-workspace/gws-drive.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-events-renew",
+  "category": "google-workspace",
+  "description": "Google Workspace Events: Renew/reactivate Workspace Events subscriptions.",
+  "path": "commands/google-workspace/gws-events-renew.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-events-subscribe",
+  "category": "google-workspace",
+  "description": "Google Workspace Events: Subscribe to Workspace events and stream them as NDJSON.",
+  "path": "commands/google-workspace/gws-events-subscribe.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-events",
+  "category": "google-workspace",
+  "description": "Subscribe to Google Workspace events.",
+  "path": "commands/google-workspace/gws-events.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-forms",
+  "category": "google-workspace",
+  "description": "Read and write Google Forms.",
+  "path": "commands/google-workspace/gws-forms.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-gmail-send",
+  "category": "google-workspace",
+  "description": "Gmail: Send an email.",
+  "path": "commands/google-workspace/gws-gmail-send.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-gmail-triage",
+  "category": "google-workspace",
+  "description": "Gmail: Show unread inbox summary (sender, subject, date).",
+  "path": "commands/google-workspace/gws-gmail-triage.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-gmail-watch",
+  "category": "google-workspace",
+  "description": "Gmail: Watch for new emails and stream them as NDJSON.",
+  "path": "commands/google-workspace/gws-gmail-watch.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-gmail",
+  "category": "google-workspace",
+  "description": "Gmail: Send, read, and manage email.",
+  "path": "commands/google-workspace/gws-gmail.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-groupssettings",
+  "category": "google-workspace",
+  "description": "Manage Google Groups settings.",
+  "path": "commands/google-workspace/gws-groupssettings.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-keep",
+  "category": "google-workspace",
+  "description": "Manage Google Keep notes.",
+  "path": "commands/google-workspace/gws-keep.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-licensing",
+  "category": "google-workspace",
+  "description": "Google Workspace Enterprise License Manager: Manage product licenses.",
+  "path": "commands/google-workspace/gws-licensing.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-meet",
+  "category": "google-workspace",
+  "description": "Manage Google Meet conferences.",
+  "path": "commands/google-workspace/gws-meet.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-modelarmor-create-template",
+  "category": "google-workspace",
+  "description": "Google Model Armor: Create a new Model Armor template.",
+  "path": "commands/google-workspace/gws-modelarmor-create-template.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-modelarmor-sanitize-prompt",
+  "category": "google-workspace",
+  "description": "Google Model Armor: Sanitize a user prompt through a Model Armor template.",
+  "path": "commands/google-workspace/gws-modelarmor-sanitize-prompt.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-modelarmor-sanitize-response",
+  "category": "google-workspace",
+  "description": "Google Model Armor: Sanitize a model response through a Model Armor template.",
+  "path": "commands/google-workspace/gws-modelarmor-sanitize-response.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-modelarmor",
+  "category": "google-workspace",
+  "description": "Google Model Armor: Filter user-generated content for safety.",
+  "path": "commands/google-workspace/gws-modelarmor.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-people",
+  "category": "google-workspace",
+  "description": "Google People: Manage contacts and profiles.",
+  "path": "commands/google-workspace/gws-people.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-reseller",
+  "category": "google-workspace",
+  "description": "Google Workspace Reseller: Manage Workspace subscriptions.",
+  "path": "commands/google-workspace/gws-reseller.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-shared",
+  "category": "google-workspace",
+  "description": "gws CLI: Shared patterns for authentication, global flags, and output formatting.",
+  "path": "commands/google-workspace/gws-shared.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-sheets-append",
+  "category": "google-workspace",
+  "description": "Google Sheets: Append a row to a spreadsheet.",
+  "path": "commands/google-workspace/gws-sheets-append.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-sheets-read",
+  "category": "google-workspace",
+  "description": "Google Sheets: Read values from a spreadsheet.",
+  "path": "commands/google-workspace/gws-sheets-read.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-sheets",
+  "category": "google-workspace",
+  "description": "Google Sheets: Read and write spreadsheets.",
+  "path": "commands/google-workspace/gws-sheets.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-slides",
+  "category": "google-workspace",
+  "description": "Google Slides: Read and write presentations.",
+  "path": "commands/google-workspace/gws-slides.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-tasks",
+  "category": "google-workspace",
+  "description": "Google Tasks: Manage task lists and tasks.",
+  "path": "commands/google-workspace/gws-tasks.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-vault",
+  "category": "google-workspace",
+  "description": "Google Vault: Manage eDiscovery holds and exports.",
+  "path": "commands/google-workspace/gws-vault.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-workflow-email-to-task",
+  "category": "google-workspace",
+  "description": "Google Workflow: Convert a Gmail message into a Google Tasks entry.",
+  "path": "commands/google-workspace/gws-workflow-email-to-task.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-workflow-file-announce",
+  "category": "google-workspace",
+  "description": "Google Workflow: Announce a Drive file in a Chat space.",
+  "path": "commands/google-workspace/gws-workflow-file-announce.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-workflow-meeting-prep",
+  "category": "google-workspace",
+  "description": "Google Workflow: Prepare for your next meeting: agenda, attendees, and linked docs.",
+  "path": "commands/google-workspace/gws-workflow-meeting-prep.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-workflow-standup-report",
+  "category": "google-workspace",
+  "description": "Google Workflow: Today's meetings + open tasks as a standup summary.",
+  "path": "commands/google-workspace/gws-workflow-standup-report.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-workflow-weekly-digest",
+  "category": "google-workspace",
+  "description": "Google Workflow: Weekly summary: this week's meetings + unread email count.",
+  "path": "commands/google-workspace/gws-workflow-weekly-digest.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "gws-workflow",
+  "category": "google-workspace",
+  "description": "Google Workflow: Cross-service productivity workflows.",
+  "path": "commands/google-workspace/gws-workflow.md",
+  "argument_hint": "[resource] [method] [flags]"
+ },
+ {
+  "name": "persona-content-creator",
+  "category": "google-workspace",
+  "description": "Create, organize, and distribute content across Workspace.",
+  "path": "commands/google-workspace/personas/persona-content-creator.md",
+  "argument_hint": "[task-description]"
+ },
+ {
+  "name": "persona-customer-support",
+  "category": "google-workspace",
+  "description": "Manage customer support — track tickets, respond, escalate issues.",
+  "path": "commands/google-workspace/personas/persona-customer-support.md",
+  "argument_hint": "[task-description]"
+ },
+ {
+  "name": "persona-event-coordinator",
+  "category": "google-workspace",
+  "description": "Plan and manage events — scheduling, invitations, and logistics.",
+  "path": "commands/google-workspace/personas/persona-event-coordinator.md",
+  "argument_hint": "[task-description]"
+ },
+ {
+  "name": "persona-exec-assistant",
+  "category": "google-workspace",
+  "description": "Manage an executive's schedule, inbox, and communications.",
+  "path": "commands/google-workspace/personas/persona-exec-assistant.md",
+  "argument_hint": "[task-description]"
+ },
+ {
+  "name": "persona-hr-coordinator",
+  "category": "google-workspace",
+  "description": "Handle HR workflows — onboarding, announcements, and employee comms.",
+  "path": "commands/google-workspace/personas/persona-hr-coordinator.md",
+  "argument_hint": "[task-description]"
+ },
+ {
+  "name": "persona-it-admin",
+  "category": "google-workspace",
+  "description": "Administer IT — manage users, monitor security, configure Workspace.",
+  "path": "commands/google-workspace/personas/persona-it-admin.md",
+  "argument_hint": "[task-description]"
+ },
+ {
+  "name": "persona-project-manager",
+  "category": "google-workspace",
+  "description": "Coordinate projects — track tasks, schedule meetings, and share docs.",
+  "path": "commands/google-workspace/personas/persona-project-manager.md",
+  "argument_hint": "[task-description]"
+ },
+ {
+  "name": "persona-researcher",
+  "category": "google-workspace",
+  "description": "Organize research — manage references, notes, and collaboration.",
+  "path": "commands/google-workspace/personas/persona-researcher.md",
+  "argument_hint": "[task-description]"
+ },
+ {
+  "name": "persona-sales-ops",
+  "category": "google-workspace",
+  "description": "Manage sales workflows — track deals, schedule calls, client comms.",
+  "path": "commands/google-workspace/personas/persona-sales-ops.md",
+  "argument_hint": "[task-description]"
+ },
+ {
+  "name": "persona-team-lead",
+  "category": "google-workspace",
+  "description": "Lead a team — run standups, coordinate tasks, and communicate.",
+  "path": "commands/google-workspace/personas/persona-team-lead.md",
+  "argument_hint": "[task-description]"
+ },
+ {
+  "name": "recipe-audit-external-sharing",
+  "category": "google-workspace",
+  "description": "Find and review Google Drive files shared outside the organization.",
+  "path": "commands/google-workspace/recipes/recipe-audit-external-sharing.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-backup-sheet-as-csv",
+  "category": "google-workspace",
+  "description": "Export a Google Sheets spreadsheet as a CSV file for local backup or processing.",
+  "path": "commands/google-workspace/recipes/recipe-backup-sheet-as-csv.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-batch-invite-to-event",
+  "category": "google-workspace",
+  "description": "Add a list of attendees to an existing Google Calendar event and send notifications.",
+  "path": "commands/google-workspace/recipes/recipe-batch-invite-to-event.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-batch-rename-files",
+  "category": "google-workspace",
+  "description": "Rename multiple Google Drive files matching a pattern to follow a consistent naming convention.",
+  "path": "commands/google-workspace/recipes/recipe-batch-rename-files.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-batch-reply-to-emails",
+  "category": "google-workspace",
+  "description": "Find Gmail messages matching a query and send a standard reply to each one.",
+  "path": "commands/google-workspace/recipes/recipe-batch-reply-to-emails.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-block-focus-time",
+  "category": "google-workspace",
+  "description": "Create recurring focus time blocks on Google Calendar to protect deep work hours.",
+  "path": "commands/google-workspace/recipes/recipe-block-focus-time.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-bulk-download-folder",
+  "category": "google-workspace",
+  "description": "List and download all files from a Google Drive folder.",
+  "path": "commands/google-workspace/recipes/recipe-bulk-download-folder.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-cancel-and-notify",
+  "category": "google-workspace",
+  "description": "Delete a Google Calendar event and send a cancellation email via Gmail.",
+  "path": "commands/google-workspace/recipes/recipe-cancel-and-notify.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-collect-form-responses",
+  "category": "google-workspace",
+  "description": "Retrieve and review responses from a Google Form.",
+  "path": "commands/google-workspace/recipes/recipe-collect-form-responses.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-compare-sheet-tabs",
+  "category": "google-workspace",
+  "description": "Read data from two tabs in a Google Sheet to compare and identify differences.",
+  "path": "commands/google-workspace/recipes/recipe-compare-sheet-tabs.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-copy-sheet-for-new-month",
+  "category": "google-workspace",
+  "description": "Duplicate a Google Sheets template tab for a new month of tracking.",
+  "path": "commands/google-workspace/recipes/recipe-copy-sheet-for-new-month.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-create-classroom-course",
+  "category": "google-workspace",
+  "description": "Create a Google Classroom course and invite students.",
+  "path": "commands/google-workspace/recipes/recipe-create-classroom-course.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-create-doc-from-template",
+  "category": "google-workspace",
+  "description": "Copy a Google Docs template, fill in content, and share with collaborators.",
+  "path": "commands/google-workspace/recipes/recipe-create-doc-from-template.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-create-events-from-sheet",
+  "category": "google-workspace",
+  "description": "Read event data from a Google Sheets spreadsheet and create Google Calendar entries for each row.",
+  "path": "commands/google-workspace/recipes/recipe-create-events-from-sheet.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-create-expense-tracker",
+  "category": "google-workspace",
+  "description": "Set up a Google Sheets spreadsheet for tracking expenses with headers and initial entries.",
+  "path": "commands/google-workspace/recipes/recipe-create-expense-tracker.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-create-feedback-form",
+  "category": "google-workspace",
+  "description": "Create a Google Form for feedback and share it via Gmail.",
+  "path": "commands/google-workspace/recipes/recipe-create-feedback-form.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-create-gmail-filter",
+  "category": "google-workspace",
+  "description": "Create a Gmail filter to automatically label, star, or categorize incoming messages.",
+  "path": "commands/google-workspace/recipes/recipe-create-gmail-filter.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-create-meet-space",
+  "category": "google-workspace",
+  "description": "Create a Google Meet meeting space and share the join link.",
+  "path": "commands/google-workspace/recipes/recipe-create-meet-space.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-create-presentation",
+  "category": "google-workspace",
+  "description": "Create a new Google Slides presentation and add initial slides.",
+  "path": "commands/google-workspace/recipes/recipe-create-presentation.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-create-shared-drive",
+  "category": "google-workspace",
+  "description": "Create a Google Shared Drive and add members with appropriate roles.",
+  "path": "commands/google-workspace/recipes/recipe-create-shared-drive.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-create-task-list",
+  "category": "google-workspace",
+  "description": "Set up a new Google Tasks list with initial tasks.",
+  "path": "commands/google-workspace/recipes/recipe-create-task-list.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-create-vacation-responder",
+  "category": "google-workspace",
+  "description": "Enable a Gmail out-of-office auto-reply with a custom message and date range.",
+  "path": "commands/google-workspace/recipes/recipe-create-vacation-responder.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-deploy-apps-script",
+  "category": "google-workspace",
+  "description": "Push local files to a Google Apps Script project.",
+  "path": "commands/google-workspace/recipes/recipe-deploy-apps-script.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-draft-email-from-doc",
+  "category": "google-workspace",
+  "description": "Read content from a Google Doc and use it as the body of a Gmail message.",
+  "path": "commands/google-workspace/recipes/recipe-draft-email-from-doc.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-email-drive-link",
+  "category": "google-workspace",
+  "description": "Share a Google Drive file and email the link with a message to recipients.",
+  "path": "commands/google-workspace/recipes/recipe-email-drive-link.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-find-free-time",
+  "category": "google-workspace",
+  "description": "Query Google Calendar free/busy status for multiple users to find a meeting slot.",
+  "path": "commands/google-workspace/recipes/recipe-find-free-time.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-find-large-files",
+  "category": "google-workspace",
+  "description": "Identify large Google Drive files consuming storage quota.",
+  "path": "commands/google-workspace/recipes/recipe-find-large-files.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-forward-labeled-emails",
+  "category": "google-workspace",
+  "description": "Find Gmail messages with a specific label and forward them to another address.",
+  "path": "commands/google-workspace/recipes/recipe-forward-labeled-emails.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-generate-report-from-sheet",
+  "category": "google-workspace",
+  "description": "Read data from a Google Sheet and create a formatted Google Docs report.",
+  "path": "commands/google-workspace/recipes/recipe-generate-report-from-sheet.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-label-and-archive-emails",
+  "category": "google-workspace",
+  "description": "Apply Gmail labels to matching messages and archive them to keep your inbox clean.",
+  "path": "commands/google-workspace/recipes/recipe-label-and-archive-emails.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-log-deal-update",
+  "category": "google-workspace",
+  "description": "Append a deal status update to a Google Sheets sales tracking spreadsheet.",
+  "path": "commands/google-workspace/recipes/recipe-log-deal-update.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-organize-drive-folder",
+  "category": "google-workspace",
+  "description": "Create a Google Drive folder structure and move files into the right locations.",
+  "path": "commands/google-workspace/recipes/recipe-organize-drive-folder.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-plan-weekly-schedule",
+  "category": "google-workspace",
+  "description": "Review your Google Calendar week, identify gaps, and add events to fill them.",
+  "path": "commands/google-workspace/recipes/recipe-plan-weekly-schedule.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-post-mortem-setup",
+  "category": "google-workspace",
+  "description": "Create a Google Docs post-mortem, schedule a Google Calendar review, and notify via Chat.",
+  "path": "commands/google-workspace/recipes/recipe-post-mortem-setup.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-reschedule-meeting",
+  "category": "google-workspace",
+  "description": "Move a Google Calendar event to a new time and automatically notify all attendees.",
+  "path": "commands/google-workspace/recipes/recipe-reschedule-meeting.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-review-meet-participants",
+  "category": "google-workspace",
+  "description": "Review who attended a Google Meet conference and for how long.",
+  "path": "commands/google-workspace/recipes/recipe-review-meet-participants.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-review-overdue-tasks",
+  "category": "google-workspace",
+  "description": "Find Google Tasks that are past due and need attention.",
+  "path": "commands/google-workspace/recipes/recipe-review-overdue-tasks.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-save-email-attachments",
+  "category": "google-workspace",
+  "description": "Find Gmail messages with attachments and save them to a Google Drive folder.",
+  "path": "commands/google-workspace/recipes/recipe-save-email-attachments.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-save-email-to-doc",
+  "category": "google-workspace",
+  "description": "Save a Gmail message body into a Google Doc for archival or reference.",
+  "path": "commands/google-workspace/recipes/recipe-save-email-to-doc.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-schedule-recurring-event",
+  "category": "google-workspace",
+  "description": "Create a recurring Google Calendar event with attendees.",
+  "path": "commands/google-workspace/recipes/recipe-schedule-recurring-event.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-search-and-export-emails",
+  "category": "google-workspace",
+  "description": "Find Gmail messages matching a query and export them for review.",
+  "path": "commands/google-workspace/recipes/recipe-search-and-export-emails.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-send-personalized-emails",
+  "category": "google-workspace",
+  "description": "Read recipient data from Google Sheets and send personalized Gmail messages to each row.",
+  "path": "commands/google-workspace/recipes/recipe-send-personalized-emails.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-send-team-announcement",
+  "category": "google-workspace",
+  "description": "Send a team announcement via both Gmail and a Google Chat space.",
+  "path": "commands/google-workspace/recipes/recipe-send-team-announcement.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-share-doc-and-notify",
+  "category": "google-workspace",
+  "description": "Share a Google Docs document with edit access and email collaborators the link.",
+  "path": "commands/google-workspace/recipes/recipe-share-doc-and-notify.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-share-event-materials",
+  "category": "google-workspace",
+  "description": "Share Google Drive files with all attendees of a Google Calendar event.",
+  "path": "commands/google-workspace/recipes/recipe-share-event-materials.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-share-folder-with-team",
+  "category": "google-workspace",
+  "description": "Share a Google Drive folder and all its contents with a list of collaborators.",
+  "path": "commands/google-workspace/recipes/recipe-share-folder-with-team.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-sync-contacts-to-sheet",
+  "category": "google-workspace",
+  "description": "Export Google Contacts directory to a Google Sheets spreadsheet.",
+  "path": "commands/google-workspace/recipes/recipe-sync-contacts-to-sheet.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-transfer-file-ownership",
+  "category": "google-workspace",
+  "description": "Transfer ownership of Google Drive files from one user to another.",
+  "path": "commands/google-workspace/recipes/recipe-transfer-file-ownership.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-triage-security-alerts",
+  "category": "google-workspace",
+  "description": "List and review Google Workspace security alerts from Alert Center.",
+  "path": "commands/google-workspace/recipes/recipe-triage-security-alerts.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "recipe-watch-drive-changes",
+  "category": "google-workspace",
+  "description": "Subscribe to change notifications on a Google Drive file or folder.",
+  "path": "commands/google-workspace/recipes/recipe-watch-drive-changes.md",
+  "argument_hint": "[task-parameters]"
+ },
+ {
+  "name": "publisher-all",
+  "category": "marketing",
+  "description": "Generate content for ALL platforms at once (X, LinkedIn, Medium, Dev.to)",
+  "path": "commands/marketing/publisher-all.md",
+  "argument_hint": "<input> [lang]"
+ },
+ {
+  "name": "publisher-devto",
+  "category": "marketing",
+  "description": "Generate Dev.to RSS feed from all blog posts for automatic syndication",
+  "path": "commands/marketing/publisher-devto.md"
+ },
+ {
+  "name": "publisher-linkedin",
+  "category": "marketing",
+  "description": "Generate LinkedIn posts from blog content with automatic media attachment via LinkedIn API",
+  "path": "commands/marketing/publisher-linkedin.md",
+  "argument_hint": "<input> [lang] [custom-file-path]"
+ },
+ {
+  "name": "publisher-medium",
+  "category": "marketing",
+  "description": "Convert blog posts to Medium-ready HTML format with image upload markers",
+  "path": "commands/marketing/publisher-medium.md",
+  "argument_hint": "<input> [lang]"
+ },
+ {
+  "name": "publisher-x",
+  "category": "marketing",
+  "description": "Generate copy-pastable X/Twitter threads from blog posts, articles, PDFs, or URLs with 3 format options",
+  "path": "commands/marketing/publisher-x.md",
+  "argument_hint": "<input> [lang]"
+ },
+ {
+  "name": "nextjs-api-tester",
+  "category": "nextjs-vercel",
+  "description": "Test and validate Next.js API routes with comprehensive test scenarios",
+  "path": "commands/nextjs-vercel/nextjs-api-tester.md",
+  "argument_hint": "[route-path] [--method=GET] [--data='{}'] [--headers='{}']"
+ },
+ {
+  "name": "nextjs-bundle-analyzer",
+  "category": "nextjs-vercel",
+  "description": "Analyze and optimize Next.js bundle size with detailed recommendations",
+  "path": "commands/nextjs-vercel/nextjs-bundle-analyzer.md",
+  "argument_hint": "[--build] [--analyze] [--report]"
+ },
+ {
+  "name": "nextjs-component-generator",
+  "category": "nextjs-vercel",
+  "description": "Generate optimized React components for Next.js with TypeScript and best practices",
+  "path": "commands/nextjs-vercel/nextjs-component-generator.md",
+  "argument_hint": "[component-name] [--client] [--server] [--page] [--layout]"
+ },
+ {
+  "name": "nextjs-middleware-creator",
+  "category": "nextjs-vercel",
+  "description": "Create optimized Next.js middleware with authentication, rate limiting, and routing logic",
+  "path": "commands/nextjs-vercel/nextjs-middleware-creator.md",
+  "argument_hint": "[middleware-type] [--auth] [--rate-limit] [--redirect] [--rewrite]"
+ },
+ {
+  "name": "nextjs-migration-helper",
+  "category": "nextjs-vercel",
+  "description": "Comprehensive Next.js migration assistant for Pages Router to App Router, JavaScript to TypeScript, and modern patterns",
+  "path": "commands/nextjs-vercel/nextjs-migration-helper.md",
+  "argument_hint": "[--pages-to-app] [--js-to-ts] [--class-to-hooks] [--analyze]"
+ },
+ {
+  "name": "nextjs-performance-audit",
+  "category": "nextjs-vercel",
+  "description": "Comprehensive Next.js performance audit with actionable optimization recommendations",
+  "path": "commands/nextjs-vercel/nextjs-performance-audit.md",
+  "argument_hint": "[--lighthouse] [--bundle] [--runtime] [--all]"
+ },
+ {
+  "name": "nextjs-scaffold",
+  "category": "nextjs-vercel",
+  "description": "Create a new Next.js application with best practices and optimal configuration",
+  "path": "commands/nextjs-vercel/nextjs-scaffold.md",
+  "argument_hint": "[project-name] [--typescript] [--tailwind] [--app-router]"
+ },
+ {
+  "name": "vercel-deploy-optimize",
+  "category": "nextjs-vercel",
+  "description": "Optimize and deploy Next.js application to Vercel with performance monitoring",
+  "path": "commands/nextjs-vercel/vercel-deploy-optimize.md",
+  "argument_hint": "[environment] [--analyze] [--preview]"
+ },
+ {
+  "name": "vercel-edge-function",
+  "category": "nextjs-vercel",
+  "description": "Generate optimized Vercel Edge Functions with geolocation, authentication, and data transformation",
+  "path": "commands/nextjs-vercel/vercel-edge-function.md",
+  "argument_hint": "[function-name] [--auth] [--geo] [--transform] [--proxy]"
+ },
+ {
+  "name": "vercel-env-sync",
+  "category": "nextjs-vercel",
+  "description": "Synchronize environment variables between local development and Vercel deployments",
+  "path": "commands/nextjs-vercel/vercel-env-sync.md",
+  "argument_hint": "[--pull] [--push] [--validate] [--backup]"
+ },
+ {
+  "name": "archive",
+  "category": "orchestration",
+  "description": "",
+  "path": "commands/orchestration/archive.md"
+ },
+ {
+  "name": "commit",
+  "category": "orchestration",
+  "description": "",
+  "path": "commands/orchestration/commit.md"
+ },
+ {
+  "name": "feature-analyzer",
+  "category": "orchestration",
+  "description": "Turn ideas into fully formed designs and specs through natural collaborative dialogue. Use before implementing new features or making significant changes.",
+  "path": "commands/orchestration/feature-analyzer.md",
+  "argument_hint": "Optional feature description"
+ },
+ {
+  "name": "feature-dev",
+  "category": "orchestration",
+  "description": "Guided feature development with codebase understanding and architecture focus",
+  "path": "commands/orchestration/feature-dev.md",
+  "argument_hint": "Optional feature description"
+ },
+ {
+  "name": "feature-pipeline",
+  "category": "orchestration",
+  "description": "Execute implementation tasks from a design document. Tasks are tracked as markdown checkboxes directly in the design file.",
+  "path": "commands/orchestration/feature-pipeline.md",
+  "argument_hint": "<design-file.md>"
+ },
+ {
+  "name": "find",
+  "category": "orchestration",
+  "description": "",
+  "path": "commands/orchestration/find.md"
+ },
+ {
+  "name": "log",
+  "category": "orchestration",
+  "description": "",
+  "path": "commands/orchestration/log.md"
+ },
+ {
+  "name": "move",
+  "category": "orchestration",
+  "description": "",
+  "path": "commands/orchestration/move.md"
+ },
+ {
+  "name": "optimize",
+  "category": "orchestration",
+  "description": "",
+  "path": "commands/orchestration/optimize.md"
+ },
+ {
+  "name": "remove",
+  "category": "orchestration",
+  "description": "",
+  "path": "commands/orchestration/remove.md"
+ },
+ {
+  "name": "report",
+  "category": "orchestration",
+  "description": "",
+  "path": "commands/orchestration/report.md"
+ },
+ {
+  "name": "resume",
+  "category": "orchestration",
+  "description": "",
+  "path": "commands/orchestration/resume.md"
+ },
+ {
+  "name": "start",
+  "category": "orchestration",
+  "description": "",
+  "path": "commands/orchestration/start.md"
+ },
+ {
+  "name": "status",
+  "category": "orchestration",
+  "description": "",
+  "path": "commands/orchestration/status.md"
+ },
+ {
+  "name": "sync",
+  "category": "orchestration",
+  "description": "",
+  "path": "commands/orchestration/sync.md"
+ },
+ {
+  "name": "add-performance-monitoring",
+  "category": "performance",
+  "description": "Setup comprehensive application performance monitoring with metrics, alerting, and observability",
+  "path": "commands/performance/add-performance-monitoring.md",
+  "argument_hint": "[monitoring-type] | --apm | --rum | --custom"
+ },
+ {
+  "name": "implement-caching-strategy",
+  "category": "performance",
+  "description": "Design and implement comprehensive caching solutions for improved performance and scalability",
+  "path": "commands/performance/implement-caching-strategy.md",
+  "argument_hint": "[cache-type] | --browser | --application | --database"
+ },
+ {
+  "name": "optimize-api-performance",
+  "category": "performance",
+  "description": "Comprehensive API performance optimization with response time reduction, throughput improvement, and scalability enhancements",
+  "path": "commands/performance/optimize-api-performance.md",
+  "argument_hint": "[api-type] | --rest | --graphql | --grpc"
+ },
+ {
+  "name": "optimize-build",
+  "category": "performance",
+  "description": "",
+  "path": "commands/performance/optimize-build.md"
+ },
+ {
+  "name": "optimize-bundle-size",
+  "category": "performance",
+  "description": "Reduce and optimize bundle sizes through analysis, configuration, and code splitting strategies",
+  "path": "commands/performance/optimize-bundle-size.md",
+  "argument_hint": "[build-tool] | --webpack | --vite | --rollup"
+ },
+ {
+  "name": "optimize-database-performance",
+  "category": "performance",
+  "description": "Optimize database queries, indexing, and performance for improved response times and scalability",
+  "path": "commands/performance/optimize-database-performance.md",
+  "argument_hint": "[database-type] | --postgresql | --mysql | --mongodb"
+ },
+ {
+  "name": "optimize-memory-usage",
+  "category": "performance",
+  "description": "Comprehensive memory usage optimization with leak detection, garbage collection tuning, and memory profiling",
+  "path": "commands/performance/optimize-memory-usage.md",
+  "argument_hint": "[target-area] | --frontend | --backend | --database"
+ },
+ {
+  "name": "performance-audit",
+  "category": "performance",
+  "description": "Comprehensive performance audit with metrics, bottleneck identification, and optimization recommendations",
+  "path": "commands/performance/performance-audit.md",
+  "argument_hint": "[target-area] | --frontend | --backend | --full"
+ },
+ {
+  "name": "setup-cdn-optimization",
+  "category": "performance",
+  "description": "Configure CDN for optimal content delivery, caching, and global performance optimization",
+  "path": "commands/performance/setup-cdn-optimization.md",
+  "argument_hint": "[cdn-provider] | --cloudflare | --aws | --fastly"
+ },
+ {
+  "name": "system-behavior-simulator",
+  "category": "performance",
+  "description": "",
+  "path": "commands/performance/system-behavior-simulator.md"
+ },
+ {
+  "name": "add-package",
+  "category": "project-management",
+  "description": "Add and configure new package to workspace with proper structure and dependencies",
+  "path": "commands/project-management/add-package.md",
+  "argument_hint": "[package-name] [package-type] | --library | --application | --tool"
+ },
+ {
+  "name": "add-to-changelog",
+  "category": "project-management",
+  "description": "Add entry to project changelog following Keep a Changelog format",
+  "path": "commands/project-management/add-to-changelog.md",
+  "argument_hint": "[version] [change-type] [message] | --added | --changed | --fixed"
+ },
+ {
+  "name": "create-feature",
+  "category": "project-management",
+  "description": "Scaffold new feature with boilerplate code, tests, and documentation",
+  "path": "commands/project-management/create-feature.md",
+  "argument_hint": "[feature-name] | [feature-type] [name]"
+ },
+ {
+  "name": "create-jtbd",
+  "category": "project-management",
+  "description": "Create Jobs-to-be-Done (JTBD) analysis for product features",
+  "path": "commands/project-management/create-jtbd.md",
+  "argument_hint": "[feature-name] | --template | --interactive"
+ },
+ {
+  "name": "create-prd",
+  "category": "project-management",
+  "description": "Create Product Requirements Document (PRD) for new features",
+  "path": "commands/project-management/create-prd.md",
+  "argument_hint": "[feature-name] | --template | --interactive"
+ },
+ {
+  "name": "create-prp",
+  "category": "project-management",
+  "description": "Create comprehensive Product Requirement Prompt (PRP) with research and validation",
+  "path": "commands/project-management/create-prp.md",
+  "argument_hint": "[feature-description] | --research | --template | --validate"
+ },
+ {
+  "name": "github-issues",
+  "category": "project-management",
+  "description": "Create, update, and manage GitHub issues using MCP tools. Use this skill when users want to create bug reports, feature requests, or task issues, update existing issues, add labels/assignees/milestones, or manage issue workflows. Triggers on requests like \"create an issue\", \"fil…",
+  "path": "commands/project-management/github-issues.md"
+ },
+ {
+  "name": "init-project",
+  "category": "project-management",
+  "description": "Initialize new project with essential structure, configuration, and development environment setup",
+  "path": "commands/project-management/init-project.md",
+  "argument_hint": "[project-type] [framework] | --react | --vue | --api | --cli"
+ },
+ {
+  "name": "milestone-tracker",
+  "category": "project-management",
+  "description": "Track and analyze project milestone progress with predictive analytics",
+  "path": "commands/project-management/milestone-tracker.md",
+  "argument_hint": "[time-period] | --sprint | --quarter | --all"
+ },
+ {
+  "name": "nuget-manager",
+  "category": "project-management",
+  "description": "Manage NuGet packages in .NET projects/solutions. Use this skill when adding, removing, or updating NuGet package versions. It enforces using `dotnet` CLI for package management and provides strict procedures for direct file edits only when updating versions.",
+  "path": "commands/project-management/nuget-manager.md"
+ },
+ {
+  "name": "pac-configure",
+  "category": "project-management",
+  "description": "Initialize Product as Code (PAC) project structure with templates and configuration",
+  "path": "commands/project-management/pac-configure.md",
+  "argument_hint": "[project-name] | --minimal | --epic-name | --owner"
+ },
+ {
+  "name": "pac-create-epic",
+  "category": "project-management",
+  "description": "Create new PAC epic following Product as Code specification",
+  "path": "commands/project-management/pac-create-epic.md",
+  "argument_hint": "[epic-name] | --name | --description | --owner"
+ },
+ {
+  "name": "pac-create-ticket",
+  "category": "project-management",
+  "description": "Create new PAC ticket within an epic following Product as Code specification",
+  "path": "commands/project-management/pac-create-ticket.md",
+  "argument_hint": "[ticket-name] | --epic | --type | --assignee | --priority"
+ },
+ {
+  "name": "pac-update-status",
+  "category": "project-management",
+  "description": "Update PAC ticket status and track progress in Product as Code workflow",
+  "path": "commands/project-management/pac-update-status.md",
+  "argument_hint": "[ticket-id] | --status | --assignee | --comment"
+ },
+ {
+  "name": "pac-validate",
+  "category": "project-management",
+  "description": "Validate Product as Code project structure and files for PAC specification compliance",
+  "path": "commands/project-management/pac-validate.md",
+  "argument_hint": "[scope] | --file | --epic | --fix | --pre-commit"
+ },
+ {
+  "name": "project-health-check",
+  "category": "project-management",
+  "description": "Analyze overall project health and generate comprehensive metrics report",
+  "path": "commands/project-management/project-health-check.md",
+  "argument_hint": "[evaluation-period] | --30-days | --sprint | --quarter"
+ },
+ {
+  "name": "project-timeline-simulator",
+  "category": "project-management",
+  "description": "Simulate project outcomes with variable modeling, risk assessment, and resource optimization",
+  "path": "commands/project-management/project-timeline-simulator.md",
+  "argument_hint": "[project-type] | --duration | --team-size | --risk-level"
+ },
+ {
+  "name": "project-to-linear",
+  "category": "project-management",
+  "description": "Sync project structure and requirements to Linear workspace with comprehensive task breakdown",
+  "path": "commands/project-management/project-to-linear.md",
+  "argument_hint": "[project-description] | --team-id | --create-new | --epic-name"
+ },
+ {
+  "name": "release",
+  "category": "project-management",
+  "description": "Prepare and execute project release with version management and changelog updates",
+  "path": "commands/project-management/release.md",
+  "argument_hint": "[version-type] | --patch | --minor | --major | --prerelease"
+ },
+ {
+  "name": "todo",
+  "category": "project-management",
+  "description": "Manage project todos in todos.md file",
+  "path": "commands/project-management/todo.md",
+  "argument_hint": "[action] [task-description] | add | complete | remove | list"
+ },
+ {
+  "name": "add-authentication-system",
+  "category": "security",
+  "description": "Implement secure user authentication system with chosen method and security best practices",
+  "path": "commands/security/add-authentication-system.md",
+  "argument_hint": "[auth-method] | --oauth | --jwt | --mfa | --passwordless"
+ },
+ {
+  "name": "dependency-audit",
+  "category": "security",
+  "description": "Audit dependencies for security vulnerabilities, license compliance, and update recommendations",
+  "path": "commands/security/dependency-audit.md",
+  "argument_hint": "[scope] | --security | --licenses | --updates | --all"
+ },
+ {
+  "name": "penetration-test",
+  "category": "security",
+  "description": "Perform penetration testing and vulnerability assessment on application",
+  "path": "commands/security/penetration-test.md",
+  "argument_hint": "[target] | --web-app | --api | --auth | --full-scan"
+ },
+ {
+  "name": "secrets-scanner",
+  "category": "security",
+  "description": "Scan codebase for exposed secrets, credentials, and sensitive information",
+  "path": "commands/security/secrets-scanner.md",
+  "argument_hint": "[scope] | --api-keys | --passwords | --certificates | --fix"
+ },
+ {
+  "name": "security-audit",
+  "category": "security",
+  "description": "Perform comprehensive security assessment and vulnerability analysis",
+  "path": "commands/security/security-audit.md",
+  "argument_hint": "[focus-area] | --full"
+ },
+ {
+  "name": "security-hardening",
+  "category": "security",
+  "description": "Harden application security configuration with comprehensive security controls",
+  "path": "commands/security/security-hardening.md",
+  "argument_hint": "[focus-area] | --headers | --auth | --encryption | --infrastructure"
+ },
+ {
+  "name": "create-database-migrations",
+  "category": "setup",
+  "description": "Create and manage database migrations with proper versioning and rollback support",
+  "path": "commands/setup/create-database-migrations.md",
+  "argument_hint": "[migration-name] | --create-table | --add-column | --alter-table"
+ },
+ {
+  "name": "design-database-schema",
+  "category": "setup",
+  "description": "Design optimized database schemas with proper relationships, constraints, and performance considerations",
+  "path": "commands/setup/design-database-schema.md",
+  "argument_hint": "[schema-type] | --relational | --nosql | --hybrid | --normalize"
+ },
+ {
+  "name": "design-rest-api",
+  "category": "setup",
+  "description": "Design RESTful API architecture with comprehensive endpoints, authentication, and documentation",
+  "path": "commands/setup/design-rest-api.md",
+  "argument_hint": "[api-version] | --v1 | --v2 | --graphql-hybrid | --openapi"
+ },
+ {
+  "name": "implement-graphql-api",
+  "category": "setup",
+  "description": "Implement GraphQL API with comprehensive schema, resolvers, and real-time subscriptions",
+  "path": "commands/setup/implement-graphql-api.md",
+  "argument_hint": "[schema-approach] | --schema-first | --code-first | --federation"
+ },
+ {
+  "name": "migrate-to-typescript",
+  "category": "setup",
+  "description": "Migrate JavaScript project to TypeScript with proper typing and tooling setup",
+  "path": "commands/setup/migrate-to-typescript.md",
+  "argument_hint": "[migration-strategy] | --gradual | --complete | --strict | --incremental"
+ },
+ {
+  "name": "setup-ci-cd-pipeline",
+  "category": "setup",
+  "description": "Setup comprehensive CI/CD pipeline with automated testing, deployment, and monitoring",
+  "path": "commands/setup/setup-ci-cd-pipeline.md",
+  "argument_hint": "[platform] | --github-actions | --gitlab-ci | --azure-pipelines | --jenkins"
+ },
+ {
+  "name": "setup-development-environment",
+  "category": "setup",
+  "description": "Setup comprehensive development environment with tools, configurations, and workflows",
+  "path": "commands/setup/setup-development-environment.md",
+  "argument_hint": "[environment-type] | --local | --docker | --cloud | --full-stack"
+ },
+ {
+  "name": "setup-docker-containers",
+  "category": "setup",
+  "description": "Setup Docker containerization with multi-stage builds and development workflows",
+  "path": "commands/setup/setup-docker-containers.md",
+  "argument_hint": "[environment-type] | --development | --production | --microservices | --compose"
+ },
+ {
+  "name": "setup-formatting",
+  "category": "setup",
+  "description": "Configure comprehensive code formatting tools with consistent style enforcement",
+  "path": "commands/setup/setup-formatting.md",
+  "argument_hint": "[language] | --javascript | --typescript | --python | --multi-language"
+ },
+ {
+  "name": "setup-linting",
+  "category": "setup",
+  "description": "Configure comprehensive code linting and quality analysis tools with automated enforcement",
+  "path": "commands/setup/setup-linting.md",
+  "argument_hint": "[language] | --javascript | --typescript | --python | --multi-language"
+ },
+ {
+  "name": "setup-monitoring-observability",
+  "category": "setup",
+  "description": "Setup comprehensive monitoring and observability with metrics, logging, tracing, and alerting",
+  "path": "commands/setup/setup-monitoring-observability.md",
+  "argument_hint": "[monitoring-type] | --metrics | --logging | --tracing | --full-stack"
+ },
+ {
+  "name": "setup-monorepo",
+  "category": "setup",
+  "description": "Configure monorepo project structure with comprehensive workspace management and build orchestration",
+  "path": "commands/setup/setup-monorepo.md",
+  "argument_hint": "[monorepo-tool] | --nx | --lerna | --rush | --turborepo | --yarn-workspaces"
+ },
+ {
+  "name": "setup-rate-limiting",
+  "category": "setup",
+  "description": "Implement comprehensive API rate limiting with advanced algorithms and user-specific policies",
+  "path": "commands/setup/setup-rate-limiting.md",
+  "argument_hint": "[rate-limit-type] | --api | --authentication | --file-upload | --database"
+ },
+ {
+  "name": "update-dependencies",
+  "category": "setup",
+  "description": "Update and modernize project dependencies with comprehensive testing and compatibility checks",
+  "path": "commands/setup/update-dependencies.md",
+  "argument_hint": "[update-strategy] | --patch | --minor | --major | --security-only"
+ },
+ {
+  "name": "vercel-analytics",
+  "category": "setup",
+  "description": "Set up Vercel Analytics and Speed Insights for React/Vite projects",
+  "path": "commands/setup/vercel-analytics.md"
+ },
+ {
+  "name": "business-scenario-explorer",
+  "category": "simulation",
+  "description": "Explore multiple business timeline scenarios with comprehensive risk analysis and strategic optimization",
+  "path": "commands/simulation/business-scenario-explorer.md",
+  "argument_hint": "[business-context] | --market-expansion | --product-launch | --funding-scenarios"
+ },
+ {
+  "name": "constraint-modeler",
+  "category": "simulation",
+  "description": "Model system constraints with validation, dependency mapping, and optimization strategies",
+  "path": "commands/simulation/constraint-modeler.md",
+  "argument_hint": "[constraint-domain] | --business | --technical | --regulatory | --resource"
+ },
+ {
+  "name": "decision-tree-explorer",
+  "category": "simulation",
+  "description": "Explore complex decision branches with probability analysis, expected value calculation, and optimization",
+  "path": "commands/simulation/decision-tree-explorer.md",
+  "argument_hint": "[decision-context] | --strategic | --investment | --operational | --crisis-response"
+ },
+ {
+  "name": "digital-twin-creator",
+  "category": "simulation",
+  "description": "Create calibrated digital twins with real-world validation, scenario testing, and decision optimization",
+  "path": "commands/simulation/digital-twin-creator.md",
+  "argument_hint": "[twin-subject] | --manufacturing | --business-process | --customer-journey | --system-performance"
+ },
+ {
+  "name": "future-scenario-generator",
+  "category": "simulation",
+  "description": "Generate comprehensive future scenarios with plausibility scoring, trend integration, and strategic implications",
+  "path": "commands/simulation/future-scenario-generator.md",
+  "argument_hint": "[time-horizon] | --near-term | --medium-term | --long-term | --disruption-focus"
+ },
+ {
+  "name": "market-response-modeler",
+  "category": "simulation",
+  "description": "Model comprehensive market and customer responses with segment analysis, behavioral prediction, and optimization",
+  "path": "commands/simulation/market-response-modeler.md",
+  "argument_hint": "[market-trigger] | --product-launch | --pricing-change | --marketing-campaign | --competitive-response"
+ },
+ {
+  "name": "monte-carlo-simulator",
+  "category": "simulation",
+  "description": "Run Monte Carlo simulations with probability distributions, confidence intervals, and statistical analysis",
+  "path": "commands/simulation/monte-carlo-simulator.md",
+  "argument_hint": "[simulation-target] | --financial-projections | --project-timelines | --market-scenarios | --risk-assessment"
+ },
+ {
+  "name": "simulation-calibrator",
+  "category": "simulation",
+  "description": "Calibrate simulation accuracy with systematic validation, bias detection, and continuous improvement",
+  "path": "commands/simulation/simulation-calibrator.md",
+  "argument_hint": "[simulation-type] | --business | --technical | --behavioral | --strategic"
+ },
+ {
+  "name": "system-dynamics-modeler",
+  "category": "simulation",
+  "description": "Model complex system dynamics with feedback loops, delays, and emergent behavior analysis",
+  "path": "commands/simulation/system-dynamics-modeler.md",
+  "argument_hint": "[system-type] | --business-ecosystem | --organizational-dynamics | --market-evolution | --feedback-loops"
+ },
+ {
+  "name": "timeline-compressor",
+  "category": "simulation",
+  "description": "Compress real-world timelines into rapid simulation cycles with accelerated learning and decision optimization",
+  "path": "commands/simulation/timeline-compressor.md",
+  "argument_hint": "[timeline-type] | --product-development | --market-adoption | --business-transformation | --competitive-response"
+ },
+ {
+  "name": "svelte-a11y",
+  "category": "svelte",
+  "description": "",
+  "path": "commands/svelte/svelte-a11y.md"
+ },
+ {
+  "name": "svelte-component",
+  "category": "svelte",
+  "description": "Create new Svelte components with best practices, TypeScript support, and testing",
+  "path": "commands/svelte/svelte-component.md",
+  "argument_hint": "[component-name] [--typescript] [--story]"
+ },
+ {
+  "name": "svelte-debug",
+  "category": "svelte",
+  "description": "",
+  "path": "commands/svelte/svelte-debug.md"
+ },
+ {
+  "name": "svelte-migrate",
+  "category": "svelte",
+  "description": "",
+  "path": "commands/svelte/svelte-migrate.md"
+ },
+ {
+  "name": "svelte-optimize",
+  "category": "svelte",
+  "description": "",
+  "path": "commands/svelte/svelte-optimize.md"
+ },
+ {
+  "name": "svelte-scaffold",
+  "category": "svelte",
+  "description": "",
+  "path": "commands/svelte/svelte-scaffold.md"
+ },
+ {
+  "name": "svelte-storybook-migrate",
+  "category": "svelte",
+  "description": "",
+  "path": "commands/svelte/svelte-storybook-migrate.md"
+ },
+ {
+  "name": "svelte-storybook-mock",
+  "category": "svelte",
+  "description": "",
+  "path": "commands/svelte/svelte-storybook-mock.md"
+ },
+ {
+  "name": "svelte-storybook-setup",
+  "category": "svelte",
+  "description": "",
+  "path": "commands/svelte/svelte-storybook-setup.md"
+ },
+ {
+  "name": "svelte-storybook-story",
+  "category": "svelte",
+  "description": "",
+  "path": "commands/svelte/svelte-storybook-story.md"
+ },
+ {
+  "name": "svelte-storybook-troubleshoot",
+  "category": "svelte",
+  "description": "",
+  "path": "commands/svelte/svelte-storybook-troubleshoot.md"
+ },
+ {
+  "name": "svelte-storybook",
+  "category": "svelte",
+  "description": "",
+  "path": "commands/svelte/svelte-storybook.md"
+ },
+ {
+  "name": "svelte-test-coverage",
+  "category": "svelte",
+  "description": "",
+  "path": "commands/svelte/svelte-test-coverage.md"
+ },
+ {
+  "name": "svelte-test-fix",
+  "category": "svelte",
+  "description": "",
+  "path": "commands/svelte/svelte-test-fix.md"
+ },
+ {
+  "name": "svelte-test-setup",
+  "category": "svelte",
+  "description": "",
+  "path": "commands/svelte/svelte-test-setup.md"
+ },
+ {
+  "name": "svelte-test",
+  "category": "svelte",
+  "description": "",
+  "path": "commands/svelte/svelte-test.md"
+ },
+ {
+  "name": "bidirectional-sync",
+  "category": "sync",
+  "description": "Enable comprehensive bidirectional GitHub-Linear synchronization with conflict resolution",
+  "path": "commands/sync/bidirectional-sync.md",
+  "argument_hint": "[sync-mode] | --full | --incremental | --dry-run | --conflict-strategy"
+ },
+ {
+  "name": "bulk-import-issues",
+  "category": "sync",
+  "description": "Bulk import GitHub issues to Linear with comprehensive progress tracking and error handling",
+  "path": "commands/sync/bulk-import-issues.md",
+  "argument_hint": "[import-scope] | --state | --label | --milestone | --batch-size"
+ },
+ {
+  "name": "cross-reference-manager",
+  "category": "sync",
+  "description": "Manage cross-platform reference links between GitHub and Linear with integrity checking",
+  "path": "commands/sync/cross-reference-manager.md",
+  "argument_hint": "[action] | audit | repair | map | validate | export"
+ },
+ {
+  "name": "issue-to-linear-task",
+  "category": "sync",
+  "description": "Convert individual GitHub issues to Linear tasks with comprehensive data preservation",
+  "path": "commands/sync/issue-to-linear-task.md",
+  "argument_hint": "[issue-number] | --team | --project | --close-github | --skip-comments"
+ },
+ {
+  "name": "linear-task-to-issue",
+  "category": "sync",
+  "description": "Convert Linear tasks to GitHub issues with relationship preservation and metadata mapping",
+  "path": "commands/sync/linear-task-to-issue.md",
+  "argument_hint": "[task-id] | --repo | --milestone | --close-linear | --skip-attachments"
+ },
+ {
+  "name": "sync-automation-setup",
+  "category": "sync",
+  "description": "Setup comprehensive automated synchronization workflows with monitoring and CI/CD integration",
+  "path": "commands/sync/sync-automation-setup.md",
+  "argument_hint": "[setup-mode] | --full | --webhooks-only | --monitoring | --deploy-target"
+ },
+ {
+  "name": "sync-conflict-resolver",
+  "category": "sync",
+  "description": "Resolve synchronization conflicts with intelligent strategies and automated resolution",
+  "path": "commands/sync/sync-conflict-resolver.md",
+  "argument_hint": "[action] | detect | resolve | analyze | configure | report"
+ },
+ {
+  "name": "sync-health-monitor",
+  "category": "sync",
+  "description": "Monitor and diagnose GitHub-Linear sync health with performance analytics and automated troubleshooting",
+  "path": "commands/sync/sync-health-monitor.md",
+  "argument_hint": "[scope] | --github | --linear | --webhooks | --performance | --report"
+ },
+ {
+  "name": "sync-issues-to-linear",
+  "category": "sync",
+  "description": "Sync GitHub issues to Linear workspace with comprehensive field mapping and rate limit management",
+  "path": "commands/sync/sync-issues-to-linear.md",
+  "argument_hint": "[sync-scope] | --state | --label | --assignee | --milestone"
+ },
+ {
+  "name": "sync-linear-to-issues",
+  "category": "sync",
+  "description": "Sync Linear tasks to GitHub issues with state mapping and attachment handling",
+  "path": "commands/sync/sync-linear-to-issues.md",
+  "argument_hint": "[sync-scope] | --team | --project | --priority | --states"
+ },
+ {
+  "name": "sync-migration-assistant",
+  "category": "sync",
+  "description": "Comprehensive migration assistant for large-scale GitHub-Linear data transitions with validation and rollback",
+  "path": "commands/sync/sync-migration-assistant.md",
+  "argument_hint": "[migration-type] | --github-to-linear | --linear-to-github | --bidirectional | --validate"
+ },
+ {
+  "name": "sync-pr-to-task",
+  "category": "sync",
+  "description": "Link GitHub pull requests to Linear tasks with automated state synchronization and workflow integration",
+  "path": "commands/sync/sync-pr-to-task.md",
+  "argument_hint": "[pr-number] | --task | --auto-detect | --enable-auto | --update-state"
+ },
+ {
+  "name": "sync-status",
+  "category": "sync",
+  "description": "Monitor GitHub-Linear sync health status with performance metrics and diagnostics",
+  "path": "commands/sync/sync-status.md",
+  "argument_hint": "[--detailed] | [--health-check] | [--diagnostics]"
+ },
+ {
+  "name": "task-from-pr",
+  "category": "sync",
+  "description": "Create Linear tasks from GitHub pull requests with intelligent content extraction and task sizing",
+  "path": "commands/sync/task-from-pr.md",
+  "argument_hint": "[pr-number] | --team | --estimate | --batch-process | --auto-create"
+ },
+ {
+  "name": "architecture-review",
+  "category": "team",
+  "description": "Comprehensive architecture review with design patterns analysis and improvement recommendations",
+  "path": "commands/team/architecture-review.md",
+  "argument_hint": "[scope] | --modules | --patterns | --dependencies | --security"
+ },
+ {
+  "name": "decision-quality-analyzer",
+  "category": "team",
+  "description": "Analyze team decision quality with bias detection, scenario testing, and process improvement recommendations",
+  "path": "commands/team/decision-quality-analyzer.md",
+  "argument_hint": "[analysis-type] | --bias-detection | --scenario-testing | --process-optimization | --outcome-tracking"
+ },
+ {
+  "name": "dependency-mapper",
+  "category": "team",
+  "description": "Map project and task dependencies with critical path analysis and circular dependency detection",
+  "path": "commands/team/dependency-mapper.md",
+  "argument_hint": "[scope] | --tasks | --code | --circular | --critical-path"
+ },
+ {
+  "name": "estimate-assistant",
+  "category": "team",
+  "description": "Generate accurate task estimates using historical data, complexity analysis, and team velocity metrics",
+  "path": "commands/team/estimate-assistant.md",
+  "argument_hint": "[task-description] | --historical | --complexity-analysis | --team-velocity | --confidence-intervals"
+ },
+ {
+  "name": "issue-triage",
+  "category": "team",
+  "description": "Intelligent issue triage with automatic categorization, prioritization, and team assignment",
+  "path": "commands/team/issue-triage.md",
+  "argument_hint": "[scope] | --github-issues | --linear-tasks | --priority-analysis | --team-assignment"
+ },
+ {
+  "name": "memory-spring-cleaning",
+  "category": "team",
+  "description": "Clean and organize project memory files with implementation synchronization and pattern updates",
+  "path": "commands/team/memory-spring-cleaning.md",
+  "argument_hint": "[scope] | --claude-md | --documentation | --outdated-patterns | --implementation-sync"
+ },
+ {
+  "name": "migration-assistant",
+  "category": "team",
+  "description": "Comprehensive system migration assistance with planning, analysis, execution, and rollback capabilities",
+  "path": "commands/team/migration-assistant.md",
+  "argument_hint": "[action] | --plan | --analyze | --migrate | --verify | --rollback"
+ },
+ {
+  "name": "retrospective-analyzer",
+  "category": "team",
+  "description": "Analyze team retrospectives with quantitative metrics and actionable insights generation",
+  "path": "commands/team/retrospective-analyzer.md",
+  "argument_hint": "[sprint-identifier] | --metrics | --insights | --action-items | --trends"
+ },
+ {
+  "name": "session-learning-capture",
+  "category": "team",
+  "description": "Capture and document session learnings with automatic knowledge integration and memory updates",
+  "path": "commands/team/session-learning-capture.md",
+  "argument_hint": "[capture-type] | --project-learnings | --implementation-corrections | --structure-insights | --workflow-improvements"
+ },
+ {
+  "name": "sprint-planning",
+  "category": "team",
+  "description": "Plan and organize sprint workflows with Linear integration and capacity analysis",
+  "path": "commands/team/sprint-planning.md",
+  "argument_hint": "[sprint-duration] | [start-date] [duration]"
+ },
+ {
+  "name": "standup-report",
+  "category": "team",
+  "description": "Generate comprehensive daily standup reports with team activity analysis and progress tracking",
+  "path": "commands/team/standup-report.md",
+  "argument_hint": "[time-range] | --yesterday | --last-24h | --since-friday | --custom-range"
+ },
+ {
+  "name": "team-knowledge-mapper",
+  "category": "team",
+  "description": "Map team knowledge and expertise with skill gap analysis and learning path recommendations",
+  "path": "commands/team/team-knowledge-mapper.md",
+  "argument_hint": "[mapping-type] | --skill-matrix | --knowledge-gaps | --expertise-areas | --learning-paths"
+ },
+ {
+  "name": "team-velocity-tracker",
+  "category": "team",
+  "description": "Track and analyze team velocity with predictive forecasting and performance optimization recommendations",
+  "path": "commands/team/team-velocity-tracker.md",
+  "argument_hint": "[analysis-period] | --sprint | --monthly | --quarterly | --trend-analysis"
+ },
+ {
+  "name": "team-workload-balancer",
+  "category": "team",
+  "description": "Analyze and optimize team workload distribution with skill matching and capacity planning",
+  "path": "commands/team/team-workload-balancer.md",
+  "argument_hint": "[analysis-type] | --current-workload | --skill-matching | --capacity-planning | --assignment-optimization"
+ },
+ {
+  "name": "add-mutation-testing",
+  "category": "testing",
+  "description": "Setup comprehensive mutation testing with framework selection and CI integration",
+  "path": "commands/testing/add-mutation-testing.md",
+  "argument_hint": "[language] | --javascript | --java | --python | --rust | --go | --csharp"
+ },
+ {
+  "name": "add-property-based-testing",
+  "category": "testing",
+  "description": "Implement property-based testing with framework selection and invariant identification",
+  "path": "commands/testing/add-property-based-testing.md",
+  "argument_hint": "[language] | --javascript | --python | --java | --haskell | --rust | --clojure"
+ },
+ {
+  "name": "e2e-setup",
+  "category": "testing",
+  "description": "Configure comprehensive end-to-end testing suite with framework selection and CI integration",
+  "path": "commands/testing/e2e-setup.md",
+  "argument_hint": "[framework] | --cypress | --playwright | --webdriver | --puppeteer | --mobile"
+ },
+ {
+  "name": "generate-test-cases",
+  "category": "testing",
+  "description": "Generate comprehensive test cases with automatic analysis and coverage optimization",
+  "path": "commands/testing/generate-test-cases.md",
+  "argument_hint": "[target] | [scope] | --unit | --integration | --edge-cases | --automatic"
+ },
+ {
+  "name": "generate-tests",
+  "category": "testing",
+  "description": "Generate a complete test file for a specified source file or component. Use when the user explicitly asks to write, create, or generate tests for a specific file.",
+  "path": "commands/testing/generate-tests.md",
+  "argument_hint": "[file-path] | [component-name]"
+ },
+ {
+  "name": "setup-comprehensive-testing",
+  "category": "testing",
+  "description": "Setup complete testing infrastructure with framework configuration and CI integration",
+  "path": "commands/testing/setup-comprehensive-testing.md",
+  "argument_hint": "[scope] | --unit | --integration | --e2e | --visual | --performance | --full-stack"
+ },
+ {
+  "name": "setup-load-testing",
+  "category": "testing",
+  "description": "Configure comprehensive load testing with performance metrics and bottleneck identification",
+  "path": "commands/testing/setup-load-testing.md",
+  "argument_hint": "[testing-type] | --capacity | --stress | --spike | --endurance | --volume"
+ },
+ {
+  "name": "setup-visual-testing",
+  "category": "testing",
+  "description": "Setup comprehensive visual regression testing with cross-browser and responsive testing",
+  "path": "commands/testing/setup-visual-testing.md",
+  "argument_hint": "[testing-scope] | --components | --pages | --responsive | --cross-browser | --accessibility"
+ },
+ {
+  "name": "test-automation-orchestrator",
+  "category": "testing",
+  "description": "Orchestrate comprehensive test automation with intelligent execution and optimization",
+  "path": "commands/testing/test-automation-orchestrator.md",
+  "argument_hint": "[orchestration-type] | --parallel | --sequential | --conditional | --pipeline-optimization"
+ },
+ {
+  "name": "test-changelog-automation",
+  "category": "testing",
+  "description": "Automate changelog testing workflow with CI integration and validation",
+  "path": "commands/testing/test-changelog-automation.md",
+  "argument_hint": "[automation-type] | --changelog | --workflow-demo | --ci-integration | --validation"
+ },
+ {
+  "name": "test-coverage",
+  "category": "testing",
+  "description": "Analyze and improve test coverage with comprehensive reporting and gap identification",
+  "path": "commands/testing/test-coverage.md",
+  "argument_hint": "[coverage-type] | --line | --branch | --function | --statement | --report"
+ },
+ {
+  "name": "test-quality-analyzer",
+  "category": "testing",
+  "description": "Analyze test suite quality with comprehensive metrics and improvement recommendations",
+  "path": "commands/testing/test-quality-analyzer.md",
+  "argument_hint": "[analysis-type] | --coverage-quality | --test-effectiveness | --maintainability | --performance-analysis"
+ },
+ {
+  "name": "testing_plan_integration",
+  "category": "testing",
+  "description": "Create comprehensive integration testing plan with inline tests and refactoring recommendations",
+  "path": "commands/testing/testing_plan_integration.md",
+  "argument_hint": "[target-code] | [test-type] | --rust | --inline | --refactoring-suggestions"
+ },
+ {
+  "name": "webapp-testing",
+  "category": "testing",
+  "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+  "path": "commands/testing/webapp-testing.md"
+ },
+ {
+  "name": "write-tests",
+  "category": "testing",
+  "description": "Write comprehensive unit and integration tests with proper mocking and coverage",
+  "path": "commands/testing/write-tests.md",
+  "argument_hint": "[target-file] | [test-type] | --unit | --integration | --e2e | --component"
+ },
+ {
+  "name": "all-tools",
+  "category": "utilities",
+  "description": "",
+  "path": "commands/utilities/all-tools.md"
+ },
+ {
+  "name": "architecture-scenario-explorer",
+  "category": "utilities",
+  "description": "",
+  "path": "commands/utilities/architecture-scenario-explorer.md"
+ },
+ {
+  "name": "check-file",
+  "category": "utilities",
+  "description": "",
+  "path": "commands/utilities/check-file.md"
+ },
+ {
+  "name": "clean-branches",
+  "category": "utilities",
+  "description": "",
+  "path": "commands/utilities/clean-branches.md"
+ },
+ {
+  "name": "clean",
+  "category": "utilities",
+  "description": "",
+  "path": "commands/utilities/clean.md"
+ },
+ {
+  "name": "cleanup-cache",
+  "category": "utilities",
+  "description": "Clean system caches (npm, Homebrew, Yarn, browsers, Python/ML) to free disk space",
+  "path": "commands/utilities/cleanup-cache.md",
+  "argument_hint": "[--aggressive] | [--maximum]"
+ },
+ {
+  "name": "code-permutation-tester",
+  "category": "utilities",
+  "description": "",
+  "path": "commands/utilities/code-permutation-tester.md"
+ },
+ {
+  "name": "code-review",
+  "category": "utilities",
+  "description": "Comprehensive code quality review with security, performance, and architecture analysis",
+  "path": "commands/utilities/code-review.md",
+  "argument_hint": "[file-path] | [commit-hash] | --full"
+ },
+ {
+  "name": "code-to-task",
+  "category": "utilities",
+  "description": "",
+  "path": "commands/utilities/code-to-task.md"
+ },
+ {
+  "name": "context-prime",
+  "category": "utilities",
+  "description": "",
+  "path": "commands/utilities/context-prime.md"
+ },
+ {
+  "name": "debug-error",
+  "category": "utilities",
+  "description": "",
+  "path": "commands/utilities/debug-error.md"
+ },
+ {
+  "name": "directory-deep-dive",
+  "category": "utilities",
+  "description": "",
+  "path": "commands/utilities/directory-deep-dive.md"
+ },
+ {
+  "name": "explain-code",
+  "category": "utilities",
+  "description": "",
+  "path": "commands/utilities/explain-code.md"
+ },
+ {
+  "name": "fix-issue",
+  "category": "utilities",
+  "description": "",
+  "path": "commands/utilities/fix-issue.md"
+ },
+ {
+  "name": "generate-linear-worklog",
+  "category": "utilities",
+  "description": "",
+  "path": "commands/utilities/generate-linear-worklog.md"
+ },
+ {
+  "name": "git-status",
+  "category": "utilities",
+  "description": "",
+  "path": "commands/utilities/git-status.md"
+ },
+ {
+  "name": "initref",
+  "category": "utilities",
+  "description": "",
+  "path": "commands/utilities/initref.md"
+ },
+ {
+  "name": "prime",
+  "category": "utilities",
+  "description": "",
+  "path": "commands/utilities/prime.md"
+ },
+ {
+  "name": "refactor-code",
+  "category": "utilities",
+  "description": "",
+  "path": "commands/utilities/refactor-code.md"
+ },
+ {
+  "name": "screenshot-analyzer",
+  "category": "utilities",
+  "description": "Analyze product screenshots to extract features and generate development task lists.",
+  "path": "commands/utilities/screenshot-analyzer.md",
+  "argument_hint": "Screenshot path or description"
+ },
+ {
+  "name": "ultra-think",
+  "category": "utilities",
+  "description": "Multi-framework structured analysis: surfaces hidden assumptions, generates competing solutions, stress-tests each with adversarial reasoning, and delivers confidence-calibrated recommendations",
+  "path": "commands/utilities/ultra-think.md",
+  "argument_hint": "[problem or question to analyze]"
+ }
+]

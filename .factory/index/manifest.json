@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-06-25T16:45:27+00:00",
+  "counts": {
+    "agents": 422,
+    "commands": 341,
+    "skills": 832,
+    "designs": 61,
+    "system-designs": 6
+  },
+  "color_palettes": "skills/creative-design/ui-ux-pro-max/data/colors.csv"
+}

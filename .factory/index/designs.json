@@ -1,0 +1,368 @@
+[
+ {
+  "name": "airbnb",
+  "title": "Design System Inspired by Airbnb",
+  "description": "Airbnb's 2026 design feels like a travel magazine that happens to be an app — pristine white canvases give way to full-bleed photography, and the interface itself disappears so the listings can breathe. The signature Rausch coral-pink (`#ff385c`) is used sparingly but unmistakab…",
+  "path": "design-md/airbnb/README.md"
+ },
+ {
+  "name": "airtable",
+  "title": "Design System Inspired by Airtable",
+  "description": "Airtable's website is a clean, enterprise-friendly platform that communicates \"sophisticated simplicity\" through a white canvas with deep navy text (`#181d26`) and Airtable Blue (`#1b61c9`) as the primary interactive accent. The Haas font family (display + text variants) creates…",
+  "path": "design-md/airtable/README.md"
+ },
+ {
+  "name": "apple",
+  "title": "Design System Inspired by Apple",
+  "description": "Apple's web presence is a masterclass in reverent product photography framed by near-invisible UI. The homepage is a stack of edge-to-edge product \"tiles\" — alternating light and dark canvases, each centered on a hero headline, a one-line tagline, two tiny blue pill CTAs, and an…",
+  "path": "design-md/apple/README.md"
+ },
+ {
+  "name": "bmw",
+  "title": "Design System Inspired by BMW",
+  "description": "BMW's website is automotive engineering made visual — a design system that communicates precision, performance, and German industrial confidence. The page alternates between deep dark hero sections (featuring full-bleed automotive photography) and clean white content areas, crea…",
+  "path": "design-md/bmw/README.md"
+ },
+ {
+  "name": "cal",
+  "title": "Design System Inspired by Cal.com",
+  "description": "Cal.com's website is a masterclass in monochromatic restraint — a grayscale world where boldness comes not from color but from the sheer confidence of black text on white space. Inspired by Uber's minimal aesthetic, the palette is deliberately stripped of hue: near-black heading…",
+  "path": "design-md/cal/README.md"
+ },
+ {
+  "name": "claude",
+  "title": "Design System Inspired by Claude (Anthropic)",
+  "description": "Claude's interface is a literary salon reimagined as a product page — warm, unhurried, and quietly intellectual. The entire experience is built on a parchment-toned canvas (`#f5f4ed`) that deliberately evokes the feeling of high-quality paper rather than a digital surface. Where…",
+  "path": "design-md/claude/README.md"
+ },
+ {
+  "name": "clay",
+  "title": "Design System Inspired by Clay",
+  "description": "Clay's website is a warm, playful celebration of color that treats B2B data enrichment like a craft rather than an enterprise chore. The design language is built on a foundation of warm cream backgrounds (`#faf9f7`) and oat-toned borders (`#dad4c8`, `#eee9df`) that give every su…",
+  "path": "design-md/clay/README.md"
+ },
+ {
+  "name": "clickhouse",
+  "title": "Design System Inspired by ClickHouse",
+  "description": "ClickHouse's interface is a high-performance cockpit rendered in acid yellow-green on obsidian black — a design that screams \"speed\" before you read a single word. The entire experience lives in darkness: pure black backgrounds (`#000000`) with dark charcoal cards (`#414141` bor…",
+  "path": "design-md/clickhouse/README.md"
+ },
+ {
+  "name": "cohere",
+  "title": "Design System Inspired by Cohere",
+  "description": "Cohere's interface is a polished enterprise command deck — confident, clean, and designed to make AI feel like serious infrastructure rather than a consumer toy. The experience lives on a bright white canvas where content is organized into generously rounded cards (22px radius)…",
+  "path": "design-md/cohere/README.md"
+ },
+ {
+  "name": "coinbase",
+  "title": "Design System Inspired by Coinbase",
+  "description": "Coinbase's website is a clean, trustworthy crypto platform that communicates financial reliability through a blue-and-white binary palette. The design uses Coinbase Blue (`#0052ff`) — a deep, saturated blue — as the singular brand accent against white and near-black surfaces. Th…",
+  "path": "design-md/coinbase/README.md"
+ },
+ {
+  "name": "composio",
+  "title": "Design System Inspired by Composio",
+  "description": "Composio's interface is a nocturnal command center — a dense, developer-focused darkness punctuated by electric cyan and deep cobalt signals. The entire experience is built on an almost-pure-black canvas (`#0f0f0f`) where content floats within barely-visible containment borders,…",
+  "path": "design-md/composio/README.md"
+ },
+ {
+  "name": "cursor",
+  "title": "Design System Inspired by Cursor",
+  "description": "Cursor's website is a study in warm minimalism meets code-editor elegance. The entire experience is built on a warm off-white canvas (`#f2f1ed`) with dark warm-brown text (`#26251e`) -- not pure black, not neutral gray, but a deeply warm near-black with a yellowish undertone tha…",
+  "path": "design-md/cursor/README.md"
+ },
+ {
+  "name": "elevenlabs",
+  "title": "Design System Inspired by ElevenLabs",
+  "description": "ElevenLabs' website is a study in restrained elegance — a near-white canvas (`#ffffff`, `#f5f5f5`) where typography and subtle shadows do all the heavy lifting. The design feels like a premium audio product brochure: clean, spacious, and confident enough to let the content speak…",
+  "path": "design-md/elevenlabs/README.md"
+ },
+ {
+  "name": "expo",
+  "title": "Design System Inspired by Expo",
+  "description": "Expo's interface is a luminous, confidence-radiating developer platform built on the premise that tools for building apps should feel as polished as the apps themselves. The entire experience lives on a bright, airy canvas — a cool-tinted off-white (`#f0f0f3`) that gives the pag…",
+  "path": "design-md/expo/README.md"
+ },
+ {
+  "name": "ferrari",
+  "title": "Design System Inspired by Ferrari",
+  "description": "Ferrari's website is a digital editorial — a curated magazine where the Prancing Horse brand is presented with the gravitas of an art institution and the precision of Italian coachwork. The page opens onto an expanse of absolute black, broken only by the iconic Prancing Horse em…",
+  "path": "design-md/ferrari/README.md"
+ },
+ {
+  "name": "figma",
+  "title": "Design System Inspired by Figma",
+  "description": "Figma's interface is the design tool that designed itself — a masterclass in typographic sophistication where a custom variable font (figmaSans) modulates between razor-thin (weight 320) and bold (weight 700) with stops at unusual intermediates (330, 340, 450, 480, 540) that mos…",
+  "path": "design-md/figma/README.md"
+ },
+ {
+  "name": "framer",
+  "title": "Design System Inspired by Framer",
+  "description": "Framer's website is a cinematic, tool-obsessed dark canvas that radiates the confidence of a design tool built by designers who worship craft. The entire experience is drenched in pure black — not a warm charcoal or a cozy dark gray, but an absolute void (`#000000`) that makes e…",
+  "path": "design-md/framer/README.md"
+ },
+ {
+  "name": "hashicorp",
+  "title": "Design System Inspired by HashiCorp",
+  "description": "HashiCorp's website is enterprise infrastructure made tangible — a design system that must communicate the complexity of cloud infrastructure management while remaining approachable. The visual language splits between two modes: a clean white light-mode for informational section…",
+  "path": "design-md/hashicorp/README.md"
+ },
+ {
+  "name": "ibm",
+  "title": "Design System Inspired by IBM",
+  "description": "IBM's website is the digital embodiment of enterprise authority built on the Carbon Design System — a design language so methodically structured it reads like an engineering specification rendered as a webpage. The page operates on a stark duality: a bright white (`#ffffff`) can…",
+  "path": "design-md/ibm/README.md"
+ },
+ {
+  "name": "intercom",
+  "title": "Design System Inspired by Intercom",
+  "description": "Intercom's website is a warm, confident customer service platform that communicates \"AI-first helpdesk\" through a clean, editorial design language. The page operates on a warm off-white canvas (`#faf9f6`) with off-black (`#111111`) text, creating an intimate, magazine-like readi…",
+  "path": "design-md/intercom/README.md"
+ },
+ {
+  "name": "kraken",
+  "title": "Design System Inspired by Kraken",
+  "description": "Kraken's website is a clean, trustworthy crypto exchange that uses purple as its commanding brand color. The design operates on white backgrounds with Kraken Purple (`#7132f5`, `#5741d8`, `#5b1ecf`) creating a distinctive, professional crypto identity. The proprietary Kraken-Bra…",
+  "path": "design-md/kraken/README.md"
+ },
+ {
+  "name": "lamborghini",
+  "title": "Design System Inspired by Lamborghini",
+  "description": "Lamborghini's website is a cathedral of darkness — a digital stage where jet-black surfaces stretch infinitely and every element emerges from the void like a machine under a spotlight. The page is almost entirely black. Not dark gray, not near-black — true, uncompromising black…",
+  "path": "design-md/lamborghini/README.md"
+ },
+ {
+  "name": "linear.app",
+  "title": "Design System Inspired by Linear",
+  "description": "Linear's website is a masterclass in dark-mode-first product design — a near-black canvas (`#08090a`) where content emerges from darkness like starlight. The overall impression is one of extreme precision engineering: every element exists in a carefully calibrated hierarchy of l…",
+  "path": "design-md/linear.app/README.md"
+ },
+ {
+  "name": "lovable",
+  "title": "Design System Inspired by Lovable",
+  "description": "Lovable's website radiates warmth through restraint. The entire page sits on a creamy, parchment-toned background (`#f7f4ed`) that immediately separates it from the cold-white conventions of most developer tool sites. This isn't minimalism for minimalism's sake — it's a delibera…",
+  "path": "design-md/lovable/README.md"
+ },
+ {
+  "name": "minimax",
+  "title": "Design System Inspired by MiniMax",
+  "description": "MiniMax's website is a clean, product-showcase platform for a Chinese AI technology company that bridges consumer-friendly appeal with technical credibility. The design language is predominantly white-space-driven with a light, airy feel — pure white backgrounds (`#ffffff`) domi…",
+  "path": "design-md/minimax/README.md"
+ },
+ {
+  "name": "mintlify",
+  "title": "Design System Inspired by Mintlify",
+  "description": "Mintlify's website is a study in documentation-as-product design — a white, airy, information-rich surface that treats clarity as its highest aesthetic value. The page opens with a luminous white (`#ffffff`) background, near-black (`#0d0d0d`) text, and a signature green brand ac…",
+  "path": "design-md/mintlify/README.md"
+ },
+ {
+  "name": "miro",
+  "title": "Design System Inspired by Miro",
+  "description": "Miro's website is a clean, collaborative-tool-forward platform that communicates \"visual thinking\" through generous whitespace, pastel accent colors, and a confident geometric font. The design uses a predominantly white canvas with near-black text (`#1c1c1e`) and a distinctive p…",
+  "path": "design-md/miro/README.md"
+ },
+ {
+  "name": "mistral.ai",
+  "title": "Design System Inspired by Mistral AI",
+  "description": "Mistral AI's interface is a sun-drenched landscape rendered in code — a warm, bold, unapologetically European design that trades the typical blue-screen AI aesthetic for golden amber, burnt orange, and the feeling of late-afternoon light in southern France. Every surface glows w…",
+  "path": "design-md/mistral.ai/README.md"
+ },
+ {
+  "name": "mongodb",
+  "title": "Design System Inspired by MongoDB",
+  "description": "MongoDB's website is a deep-forest-meets-terminal experience — a design system rooted in the darkest teal-black (`#001e2b`) that evokes both the density of a database and the depth of a forest canopy. Against this near-black canvas, a striking neon green (`#00ed64`) pulses as th…",
+  "path": "design-md/mongodb/README.md"
+ },
+ {
+  "name": "notion",
+  "title": "Design System Inspired by Notion",
+  "description": "Notion's website embodies the philosophy of the tool itself: a blank canvas that gets out of your way. The design system is built on warm neutrals rather than cold grays, creating a distinctly approachable minimalism that feels like quality paper rather than sterile glass. The p…",
+  "path": "design-md/notion/README.md"
+ },
+ {
+  "name": "nvidia",
+  "title": "Design System Inspired by NVIDIA",
+  "description": "NVIDIA's website is a high-contrast, technology-forward experience that communicates raw computational power through design restraint. The page is built on a stark black (`#000000`) and white (`#ffffff`) foundation, punctuated by NVIDIA's signature green (`#76b900`) -- a color s…",
+  "path": "design-md/nvidia/README.md"
+ },
+ {
+  "name": "ollama",
+  "title": "Design System Inspired by Ollama",
+  "description": "Ollama's interface is radical minimalism taken to its logical conclusion — a pure-white void where content floats without decoration, shadow, or color. The design philosophy mirrors the product itself: strip away everything unnecessary until only the essential tool remains. This…",
+  "path": "design-md/ollama/README.md"
+ },
+ {
+  "name": "opencode.ai",
+  "title": "Design System Inspired by OpenCode",
+  "description": "OpenCode's website embodies a terminal-native, monospace-first aesthetic that reflects its identity as an open source AI coding agent. The entire visual system is built on a stark dark-on-light contrast using a near-black background (`#201d1d`) with warm off-white text (`#fdfcfc…",
+  "path": "design-md/opencode.ai/README.md"
+ },
+ {
+  "name": "pinterest",
+  "title": "Design System Inspired by Pinterest",
+  "description": "Pinterest's website is a warm, inspiration-driven canvas that treats visual discovery like a lifestyle magazine. The design operates on a soft, slightly warm white background with Pinterest Red (`#e60023`) as the singular, bold brand accent. Unlike the cool blues of most tech pl…",
+  "path": "design-md/pinterest/README.md"
+ },
+ {
+  "name": "playstation",
+  "title": "Design System Inspired by PlayStation",
+  "description": "PlayStation.com carries itself like the marketing wing of a premium consumer-electronics brand that happens to sell entertainment. The page is organized as a **vertical channel of alternating surfaces**: a near-black masthead and hero, a sequence of paper-white editorial panels…",
+  "path": "design-md/playstation/README.md"
+ },
+ {
+  "name": "posthog",
+  "title": "Design System Inspired by PostHog",
+  "description": "PostHog's website feels like a startup's internal wiki that escaped into the wild — warm, irreverent, and deliberately anti-corporate. The background isn't the expected crisp white or dark void of developer tools; it's a warm, sage-tinted cream (`#fdfdf8`) that gives every surfa…",
+  "path": "design-md/posthog/README.md"
+ },
+ {
+  "name": "raycast",
+  "title": "Design System Inspired by Raycast",
+  "description": "Raycast's marketing site feels like the dark interior of a precision instrument — a Swiss watch case carved from obsidian. The background isn't just dark, it's an almost-black blue-tint (`#07080a`) that creates a sense of being inside a macOS native application rather than a web…",
+  "path": "design-md/raycast/README.md"
+ },
+ {
+  "name": "renault",
+  "title": "Design System Inspired by Renault",
+  "description": "Renault's website is a vibrant digital showroom that balances French automotive elegance with bold, forward-leaning energy — a departure from the monochromatic austerity of German or Italian luxury brands. The page opens with a full-screen hero that washes the viewport in a swee…",
+  "path": "design-md/renault/README.md"
+ },
+ {
+  "name": "replicate",
+  "title": "Design System Inspired by Replicate",
+  "description": "Replicate's interface is a developer playground crackling with creative energy — a bold, high-contrast design that feels more like a music festival poster than a typical API platform. The hero section explodes with a vibrant orange-red-magenta gradient that immediately signals \"…",
+  "path": "design-md/replicate/README.md"
+ },
+ {
+  "name": "resend",
+  "title": "Design System Inspired by Resend",
+  "description": "Resend's website is a dark, cinematic canvas that treats email infrastructure like a luxury product. The entire page is draped in pure black (`#000000`) with text that glows in near-white (`#f0f0f0`), creating a theater-like experience where content performs on a void stage. Thi…",
+  "path": "design-md/resend/README.md"
+ },
+ {
+  "name": "revolut",
+  "title": "Design System Inspired by Revolut",
+  "description": "Revolut's website is fintech confidence distilled into pixels — a design system that communicates \"your money is in capable hands\" through massive typography, generous whitespace, and a disciplined neutral palette. The visual language is built on Aeonik Pro, a geometric grotesqu…",
+  "path": "design-md/revolut/README.md"
+ },
+ {
+  "name": "runwayml",
+  "title": "Design System Inspired by Runway",
+  "description": "Runway's interface is a cinematic reel brought to life as a website — a dark, editorial, film-production-grade design where full-bleed photography and video ARE the primary UI elements. This is not a typical tech product page; it's a visual manifesto for AI-powered creativity. E…",
+  "path": "design-md/runwayml/README.md"
+ },
+ {
+  "name": "sanity",
+  "title": "Design System Inspired by Sanity",
+  "description": "Sanity's website is a developer-content platform rendered as a nocturnal command center -- dark, precise, and deeply structured. The entire experience sits on a near-black canvas (`#0b0b0b`) that reads less like a \"dark mode toggle\" and more like the natural state of a tool buil…",
+  "path": "design-md/sanity/README.md"
+ },
+ {
+  "name": "sentry",
+  "title": "Design System Inspired by Sentry",
+  "description": "Sentry's website is a dark-mode-first developer tool interface that speaks the language of code editors and terminal windows. The entire aesthetic is rooted in deep purple-black backgrounds (`#1f1633`, `#150f23`) that evoke the late-night debugging sessions Sentry was built for.…",
+  "path": "design-md/sentry/README.md"
+ },
+ {
+  "name": "spacex",
+  "title": "Design System Inspired by SpaceX",
+  "description": "SpaceX's website is a full-screen cinematic experience that treats aerospace engineering like a film — every section is a scene, every photograph is a frame, and the interface disappears entirely behind the imagery. The design is pure black (`#000000`) with photography of rocket…",
+  "path": "design-md/spacex/README.md"
+ },
+ {
+  "name": "spotify",
+  "title": "Design System Inspired by Spotify",
+  "description": "Spotify's web interface is a dark, immersive music player that wraps listeners in a near-black cocoon (`#121212`, `#181818`, `#1f1f1f`) where album art and content become the primary source of color. The design philosophy is \"content-first darkness\" — the UI recedes into shadow…",
+  "path": "design-md/spotify/README.md"
+ },
+ {
+  "name": "starbucks",
+  "title": "Design System Inspired by Starbucks",
+  "description": "Starbucks' design system is a **warm, confident retail flagship** wearing the green of their storefront apron across every surface. The canvas alternates between a neutral-warm cream (`#f2f0eb`) and a ceramic off-white (`#edebe9`) — colors that reference actual store materials:…",
+  "path": "design-md/starbucks/README.md"
+ },
+ {
+  "name": "stripe",
+  "title": "Design System Inspired by Stripe",
+  "description": "Stripe's website is the gold standard of fintech design -- a system that manages to feel simultaneously technical and luxurious, precise and warm. The page opens on a clean white canvas (`#ffffff`) with deep navy headings (`#061b31`) and a signature purple (`#533afd`) that funct…",
+  "path": "design-md/stripe/README.md"
+ },
+ {
+  "name": "supabase",
+  "title": "Design System Inspired by Supabase",
+  "description": "Supabase's website is a dark-mode-native developer platform that channels the aesthetic of a premium code editor — deep black backgrounds (`#0f0f0f`, `#171717`) with emerald green accents (`#3ecf8e`, `#00c573`) that reference the brand's open-source, PostgreSQL-green identity. T…",
+  "path": "design-md/supabase/README.md"
+ },
+ {
+  "name": "superhuman",
+  "title": "Design System Inspired by Superhuman",
+  "description": "Superhuman's website feels like opening a luxury envelope — predominantly white, immaculately clean, with a single dramatic gesture of color that commands attention. The hero section is a cinematic purple gradient, a deep twilight wash of `#1b1938` that evokes the moment just be…",
+  "path": "design-md/superhuman/README.md"
+ },
+ {
+  "name": "tesla",
+  "title": "Design System Inspired by Tesla",
+  "description": "Tesla's website is an exercise in radical subtraction — a digital showroom where the product is everything and the interface is almost nothing. The page opens with a full-viewport hero that fills the entire screen with cinematic car photography: three vehicles arranged on polish…",
+  "path": "design-md/tesla/README.md"
+ },
+ {
+  "name": "theverge",
+  "title": "Design System Inspired by The Verge",
+  "description": "The Verge's 2024 redesign feels like somebody wired a Condé Nast magazine to a chiptune soundboard. The canvas is almost-black (`#131313`), the headlines are built from a brutally heavy display face (Manuka) that runs up to 107px, and the whole page is peppered with acid-mint `#…",
+  "path": "design-md/theverge/README.md"
+ },
+ {
+  "name": "together.ai",
+  "title": "Design System Inspired by Together AI",
+  "description": "Together AI's interface is a pastel-gradient dreamscape built for enterprise AI infrastructure — a design that somehow makes GPU clusters and model inference feel light, airy, and optimistic. The hero section blooms with soft pink-blue-lavender gradients and abstract, painterly…",
+  "path": "design-md/together.ai/README.md"
+ },
+ {
+  "name": "uber",
+  "title": "Design System Inspired by Uber",
+  "description": "Uber's design language is a masterclass in confident minimalism -- a black-and-white universe where every pixel serves a purpose and nothing decorates without earning its place. The entire experience is built on a stark duality: jet black (`#000000`) and pure white (`#ffffff`),…",
+  "path": "design-md/uber/README.md"
+ },
+ {
+  "name": "vercel",
+  "title": "Design System Inspired by Vercel",
+  "description": "Vercel's website is the visual thesis of developer infrastructure made invisible — a design system so restrained it borders on philosophical. The page is overwhelmingly white (`#ffffff`) with near-black (`#171717`) text, creating a gallery-like emptiness where every element earn…",
+  "path": "design-md/vercel/README.md"
+ },
+ {
+  "name": "voltagent",
+  "title": "Design System Inspired by VoltAgent",
+  "description": "VoltAgent's interface is a deep-space command terminal for the AI age — a developer-facing darkness built on near-pure-black surfaces (`#050507`) where the only interruption is the electric pulse of emerald green energy. The entire experience evokes the feeling of staring into a…",
+  "path": "design-md/voltagent/README.md"
+ },
+ {
+  "name": "warp",
+  "title": "Design System Inspired by Warp",
+  "description": "Warp's website feels like sitting at a campfire in a deep forest — warm, dark, and alive with quiet confidence. Unlike the cold, blue-tinted blacks favored by most developer tools, Warp wraps everything in a warm near-black that feels like charred wood or dark earth. The text is…",
+  "path": "design-md/warp/README.md"
+ },
+ {
+  "name": "webflow",
+  "title": "Design System Inspired by Webflow",
+  "description": "Webflow's website is a visually rich, tool-forward platform that communicates \"design without code\" through clean white surfaces, the signature Webflow Blue (`#146ef5`), and a rich secondary color palette (purple, pink, green, orange, yellow, red). The custom WF Visual Sans Vari…",
+  "path": "design-md/webflow/README.md"
+ },
+ {
+  "name": "wise",
+  "title": "Design System Inspired by Wise",
+  "description": "Wise's website is a bold, confident fintech platform that communicates \"money without borders\" through massive typography and a distinctive lime-green accent. The design operates on a warm off-white canvas with near-black text (`#0e0f0c`) and a signature Wise Green (`#9fe870`) —…",
+  "path": "design-md/wise/README.md"
+ },
+ {
+  "name": "x.ai",
+  "title": "Design System Inspired by xAI",
+  "description": "xAI's website is a masterclass in dark-first, monospace-driven brutalist minimalism -- a design system that feels like it was built by engineers who understand that restraint is the ultimate form of sophistication. The entire experience is anchored to an almost-black background…",
+  "path": "design-md/x.ai/README.md"
+ },
+ {
+  "name": "zapier",
+  "title": "Design System Inspired by Zapier",
+  "description": "Zapier's website radiates warm, approachable professionalism. It rejects the cold monochrome minimalism of developer tools in favor of a cream-tinted canvas (`#fffefb`) that feels like unbleached paper -- the digital equivalent of a well-organized notebook. The near-black (`#201…",
+  "path": "design-md/zapier/README.md"
+ }
+]

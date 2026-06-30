@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "domain-checker": {
+      "type": "http",
+      "url": "https://domain-checker-remote-mcp-la5h5.ondigitalocean.app/mcp"
+    }
+  }
+}
